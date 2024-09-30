@@ -1,46 +1,3 @@
-/* body {
-	font-family: Arial;
-}
-.fq-question {
-	color: #555;
-	border: 1px solid #ccc;
-	background: #efefef;
-	padding: 10px;
-	margin: 10px 0;
-}
-
-.fq-question.fq-active {
-	display: inline-block;
-}
-
-.fq-question.fq-inactive {
-	display: none;
-}
-
-.fq-option {
-	cursor: pointer;
-	color: #444;
-	background: #fff;
-	padding: 3px 6px;
-	margin: 0 0 0 10px;
-	border: 1px solid #fff;
-
-	display: block;
-	height: 30px;
-	line-height: 30px;
-	margin: 5px 0;
-}
-
-.fq-option:hover {
-	box-shadow: 0 0 3px 1px #999;
-}
-
-#answer-result {
-	padding: 10px;
-} */
-
-/* start teste */
-
 .fq-question.fq-inactive {
 	display: none;
 }
@@ -54,35 +11,37 @@ body {
 	flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 h3 {
     text-align: center;
     color: #333;
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 20px;
 }
 
 #flowquest_container {
     background-color: #fff;
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
+    max-width: 500px;
     width: 100%;
 }
 
 .fq-question {
-    font-size: 18px;
+    font-size: 20px;
     color: #333;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .fq-option {
     display: block;
-    padding: 12px;
-    margin: 10px 0;
+    padding: 14px;
+    margin: 12px 0;
     background-color: #007bff;
     color: white;
     text-decoration: none;
@@ -90,6 +49,7 @@ h3 {
     text-align: center;
     font-weight: bold;
     transition: background-color 0.3s ease;
+    font-size: 18px;
 }
 
 .fq-option:hover {
@@ -105,13 +65,36 @@ h3 {
     display: block;
 }
 
-.fq-question a {
-    font-size: 16px;
+.fq-inactive {
+    display: none;
 }
 
+#answer-result {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.answer-title p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.answer-description p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Responsividade */
 @media (max-width: 1000px) {
     body {
         padding: 15px;
+        height: auto;
     }
 
     #flowquest_container {
@@ -121,16 +104,23 @@ h3 {
     }
 
     h3 {
-        font-size: 50px; /* Aumentando o título */
+        font-size: 50px;
     }
 
     .fq-question {
-        font-size: 40px; /* Aumentando o tamanho da pergunta */
+        font-size: 40px;
     }
 
     a.fq-option {
         padding: 20px;
-        font-size: 40px; /* Aumentando o tamanho das opções */
-        margin: 40px 0;
+        font-size: 40px;
+    }
+
+    .answer-title p {
+        font-size: 40px;
+    }
+
+    .answer-description p {
+        font-size: 28px;
     }
 }

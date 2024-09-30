@@ -255,7 +255,7 @@ export function flowquest() {
             newTag:    oReferences.ATag,
             newElID:   oReferences.ATagId,
             elClasses: sClasses,
-            sHTML:     sResultPosition + ': ' + sResultContent
+            sHTML:     '<div class="answer-title"><p>' + sResultPosition + '</p></div>' + '<div class="answer-description"><p>' + sResultContent + '</p></div>'
         });
     }
 
