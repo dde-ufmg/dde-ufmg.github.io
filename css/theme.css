@@ -45,7 +45,6 @@
 	display: none;
 }
 
-
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f9;
@@ -70,7 +69,7 @@ h3 {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
+    max-width: 800px;
     width: 100%;
 }
 
@@ -108,4 +107,30 @@ h3 {
 
 .fq-question a {
     font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+        height: auto;
+    }
+
+    #flowquest_container {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    h3 {
+        font-size: 28px; /* Aumentando o título */
+    }
+
+    .fq-question {
+        font-size: 22px; /* Aumentando o tamanho da pergunta */
+    }
+
+    .fq-option {
+        padding: 16px;
+        font-size: 20px; /* Aumentando o tamanho das opções */
+        margin: 12px 0;
+    }
 }

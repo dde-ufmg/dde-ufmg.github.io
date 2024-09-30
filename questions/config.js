@@ -17,7 +17,7 @@ export default
 					"nextQ": 8
 				},
 				"thickness": {
-					"label": "Coloração e Espessura",
+					"label": "Espessura",
 					"val": "thickness",
 					"nextQ": 8
 				}
