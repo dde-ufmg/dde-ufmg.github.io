@@ -112,7 +112,7 @@ export function flowquest() {
                 , questionTag = oReferences.QTag
                 , questionTagID = oReferences.QTagPrefix + qid
                 , questionClasses = oReferences.QTagBaseClass + ' ' + oReferences.QTagActiveClass
-                , questionTxt = qid + '. ' + thisQ.question
+                , questionTxt = thisQ.question
                 
                 // answer options
                 , newOptTag = oReferences.OptTag

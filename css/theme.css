@@ -109,28 +109,28 @@ h3 {
     font-size: 16px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     body {
         padding: 15px;
-        height: auto;
     }
 
     #flowquest_container {
-        padding: 20px;
+		margin: 40px 40px;
+        padding: 40px;
         max-width: 100%;
     }
 
     h3 {
-        font-size: 28px; /* Aumentando o título */
+        font-size: 50px; /* Aumentando o título */
     }
 
     .fq-question {
-        font-size: 22px; /* Aumentando o tamanho da pergunta */
+        font-size: 40px; /* Aumentando o tamanho da pergunta */
     }
 
-    .fq-option {
-        padding: 16px;
-        font-size: 20px; /* Aumentando o tamanho das opções */
-        margin: 12px 0;
+    a.fq-option {
+        padding: 20px;
+        font-size: 40px; /* Aumentando o tamanho das opções */
+        margin: 40px 0;
     }
 }
