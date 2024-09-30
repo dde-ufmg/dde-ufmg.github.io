@@ -14,12 +14,12 @@ export default
 				"color-thickness": {
 					"label": "Coloração e Espessura",
 					"val": "color-thickness",
-					"nextQ": 8
+					"nextQ": null
 				},
 				"thickness": {
 					"label": "Espessura",
 					"val": "thickness",
-					"nextQ": 8
+					"nextQ": null
 				}
 			}
 		}
