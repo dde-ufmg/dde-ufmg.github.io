@@ -1,0 +1,1317 @@
+{
+  "text": "Qual tipo de alteração você observa?",
+  "id": "1:2",
+  "type": "NODE",
+  "edges": [
+    {
+      "text": "Coloração e Espessura",
+      "id": "1:13",
+      "from": {
+        "$ref": "#"
+      },
+      "type": "EDGE",
+      "color": {
+        "r": 0.7019608020782471,
+        "g": 0.7019608020782471,
+        "b": 0.7019608020782471
+      },
+      "fromSide": "TOP",
+      "toSide": "BOTTOM",
+      "edgeType": "ELBOWED",
+      "directional": "UNI",
+      "to": {
+        "text": "Essa alteração afeta todos os dentes presentes?",
+        "id": "1:12",
+        "type": "NODE",
+        "edges": [
+          {
+            "text": "Não",
+            "id": "10:489",
+            "from": {
+              "$ref": "#/edges/0/to"
+            },
+            "type": "EDGE",
+            "color": {
+              "r": 0.7019608020782471,
+              "g": 0.7019608020782471,
+              "b": 0.7019608020782471
+            },
+            "fromSide": "LEFT",
+            "toSide": "RIGHT",
+            "edgeType": "ELBOWED",
+            "directional": "UNI",
+            "to": {
+              "text": "Margens são lisas?",
+              "id": "10:488",
+              "type": "NODE",
+              "edges": [
+                {
+                  "text": "Sim",
+                  "id": "10:810",
+                  "from": {
+                    "$ref": "#/edges/0/to/edges/0/to"
+                  },
+                  "type": "EDGE",
+                  "color": {
+                    "r": 0.7019608020782471,
+                    "g": 0.7019608020782471,
+                    "b": 0.7019608020782471
+                  },
+                  "fromSide": "TOP",
+                  "toSide": "BOTTOM",
+                  "edgeType": "ELBOWED",
+                  "directional": "UNI",
+                  "to": {
+                    "text": "HIPOPLASIA $hipoplasia As alterações hipoplásicas são de caráter quantitativo e ocorrem quando há uma formação incompleta ou defeituosa da matriz orgânica do esmalte dentário. Clinicamente pode se apresentar como regiões de fóssulas, fissuras ou grandes áreas de perda de esmalte com coloração variando entre áreas sem alteração de cor à esbranquiçadas, amareladas e/ou acastanhadas. É importante ressaltar que em alguns casos, lesões de cariosas podem estar associadas à hipoplasia. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                    "id": "10:809",
+                    "type": "NODE",
+                    "edges": [],
+                    "color": {
+                      "r": 0.8941176533699036,
+                      "g": 0.800000011920929,
+                      "b": 1
+                    }
+                  }
+                },
+                {
+                  "text": "Não",
+                  "id": "10:562",
+                  "from": {
+                    "$ref": "#/edges/0/to/edges/0/to"
+                  },
+                  "type": "EDGE",
+                  "color": {
+                    "r": 0.7019608020782471,
+                    "g": 0.7019608020782471,
+                    "b": 0.7019608020782471
+                  },
+                  "fromSide": "LEFT",
+                  "toSide": "RIGHT",
+                  "edgeType": "ELBOWED",
+                  "directional": "UNI",
+                  "to": {
+                    "text": "Essa alteração está presente em algum dos primeiros molares permanentes ou em algum dos segundos molares decíduos?",
+                    "id": "10:561",
+                    "type": "NODE",
+                    "edges": [
+                      {
+                        "text": "Não",
+                        "id": "10:593",
+                        "from": {
+                          "$ref": "#/edges/0/to/edges/0/to/edges/1/to"
+                        },
+                        "type": "EDGE",
+                        "color": {
+                          "r": 0.7019608020782471,
+                          "g": 0.7019608020782471,
+                          "b": 0.7019608020782471
+                        },
+                        "fromSide": "LEFT",
+                        "toSide": "RIGHT",
+                        "edgeType": "ELBOWED",
+                        "directional": "UNI",
+                        "to": {
+                          "text": "Quanto a localização da alteração:",
+                          "id": "10:592",
+                          "type": "NODE",
+                          "edges": [
+                            {
+                              "text": "Essa alteração está presente em algum dente decíduo, exceto no segundo molar.",
+                              "id": "10:682",
+                              "from": {
+                                "$ref": "#/edges/0/to/edges/0/to/edges/1/to/edges/0/to"
+                              },
+                              "type": "EDGE",
+                              "color": {
+                                "r": 0.7019608020782471,
+                                "g": 0.7019608020782471,
+                                "b": 0.7019608020782471
+                              },
+                              "fromSide": "LEFT",
+                              "toSide": "RIGHT",
+                              "edgeType": "ELBOWED",
+                              "directional": "UNI",
+                              "to": {
+                                "text": "Você provavelmente está a frente de uma lesão de HIPOMINEIRALIZAÇÃO EM DENTE DECÍDUO: $hmd As hipomineralizações isoladas em dentes decíduos possuem causa multifatorial, podendo incluir fatores pré e pós-natais, além de fatores ambientais e outros, não tendo uma causa definida. Éuma condição caracterizada por opacidades demarcadas de cor branca, amarela ou amarronzadas e o esmalte afetado por essa condição geralmente é considerado frágil devido sua maciez e porosidade, sendo mais suscetível a fraturas devido aos esforços mastigatórios. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                "id": "10:681",
+                                "type": "NODE",
+                                "edges": [],
+                                "color": {
+                                  "r": 0.8941176533699036,
+                                  "g": 0.800000011920929,
+                                  "b": 1
+                                }
+                              }
+                            },
+                            {
+                              "text": "Está presente em Segundos Molares, Pré-Molares ou Caninos Permanentes?",
+                              "id": "10:635",
+                              "from": {
+                                "$ref": "#/edges/0/to/edges/0/to/edges/1/to/edges/0/to"
+                              },
+                              "type": "EDGE",
+                              "color": {
+                                "r": 0.7019608020782471,
+                                "g": 0.7019608020782471,
+                                "b": 0.7019608020782471
+                              },
+                              "fromSide": "BOTTOM",
+                              "toSide": "RIGHT",
+                              "edgeType": "ELBOWED",
+                              "directional": "UNI",
+                              "to": {
+                                "text": "Você provavelmente está diante de uma lesão de HOPTS $hopts As hipomineralizações em dentes permanentes que não sejam em dentes índices, como caninos, pré-molares e segundos molares, são chamadas de HOPT (hypomineralisation of other permanent teeth), assim como na HMI é uma condição caracterizada por opacidades demarcadas de cor branca, amarela ou amarronzadas e o esmalte afetado por essa condição geralmente é considerado frágil devido sua maciez e porosidade, sendo mais suscetível a fraturas devido aos esforços mastigatórios. Além disso, a presença de HMI ou HMD é considerado um fator preditor para HOPT. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                "id": "10:634",
+                                "type": "NODE",
+                                "edges": [],
+                                "color": {
+                                  "r": 0.8941176533699036,
+                                  "g": 0.800000011920929,
+                                  "b": 1
+                                }
+                              }
+                            }
+                          ],
+                          "color": {
+                            "r": 0.8941176533699036,
+                            "g": 0.800000011920929,
+                            "b": 1
+                          }
+                        }
+                      },
+                      {
+                        "text": "Sim",
+                        "id": "10:917",
+                        "from": {
+                          "$ref": "#/edges/0/to/edges/0/to/edges/1/to"
+                        },
+                        "type": "EDGE",
+                        "color": {
+                          "r": 0.7019608020782471,
+                          "g": 0.7019608020782471,
+                          "b": 0.7019608020782471
+                        },
+                        "fromSide": "TOP",
+                        "toSide": "BOTTOM",
+                        "edgeType": "ELBOWED",
+                        "directional": "UNI",
+                        "to": {
+                          "text": "Você provavelmente está diante de uma lesão de HMI/HMD $hmi_hmd A hipomineralização molar-incisivo (HMI) é um defeito de desenvolvimento do esmalte que afeta um ou até os quatro primeiros molares permanentes, associados ou não à alterações nos incisivos e segundos molares, sua versão em dentes decíduos é chamada de hipomineralização em molares decíduos (HMD), em que o dente índice é o segundo molar decíduo. É caracterizada por opacidades demarcadas de cor branca, amarela ou amarronzadas, principalmente nas superfícies oclusais e vestibulares. O esmalte afetado por essa condição geralmente é considerado frágil devido sua maciez e porosidade, sendo mais suscetível a fraturas devido aos esforços mastigatórios. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                          "id": "10:916",
+                          "type": "NODE",
+                          "edges": [],
+                          "color": {
+                            "r": 0.8941176533699036,
+                            "g": 0.800000011920929,
+                            "b": 1
+                          }
+                        }
+                      }
+                    ],
+                    "color": {
+                      "r": 0.8941176533699036,
+                      "g": 0.800000011920929,
+                      "b": 1
+                    }
+                  }
+                }
+              ],
+              "color": {
+                "r": 0.8941176533699036,
+                "g": 0.800000011920929,
+                "b": 1
+              }
+            }
+          },
+          {
+            "text": "Sim",
+            "id": "10:475",
+            "from": {
+              "$ref": "#/edges/0/to"
+            },
+            "type": "EDGE",
+            "color": {
+              "r": 0.7019608020782471,
+              "g": 0.7019608020782471,
+              "b": 0.7019608020782471
+            },
+            "fromSide": "RIGHT",
+            "toSide": "LEFT",
+            "edgeType": "ELBOWED",
+            "directional": "UNI",
+            "to": {
+              "text": "Algum familiar possui dentes com uma condição semelhante?",
+              "id": "10:474",
+              "type": "NODE",
+              "edges": [
+                {
+                  "text": "Sim",
+                  "id": "10:1070",
+                  "from": {
+                    "$ref": "#/edges/0/to/edges/1/to"
+                  },
+                  "type": "EDGE",
+                  "color": {
+                    "r": 0.7019608020782471,
+                    "g": 0.7019608020782471,
+                    "b": 0.7019608020782471
+                  },
+                  "fromSide": "TOP",
+                  "toSide": "BOTTOM",
+                  "edgeType": "ELBOWED",
+                  "directional": "UNI",
+                  "to": {
+                    "text": "No exame de radiografia panorâmica, os dentes apresentam imagem bem delimitada do esmalte dentário?",
+                    "id": "10:1069",
+                    "type": "NODE",
+                    "edges": [
+                      {
+                        "text": "Não",
+                        "id": "10:1189",
+                        "from": {
+                          "$ref": "#/edges/0/to/edges/1/to/edges/0/to"
+                        },
+                        "type": "EDGE",
+                        "color": {
+                          "r": 0.7019608020782471,
+                          "g": 0.7019608020782471,
+                          "b": 0.7019608020782471
+                        },
+                        "fromSide": "RIGHT",
+                        "toSide": "LEFT",
+                        "edgeType": "ELBOWED",
+                        "directional": "UNI",
+                        "to": {
+                          "text": "Você provavelmente está diante de uma AMELOGÊNESE IMPERFEITA $amelogenese A amelogênese imperfeita é considerada um defeito hereditário do esmalte dentário. São relatados três tipos dessa condição, dependendo da etapa de formação do esmalte em que ocorre, sendo: tipo hipoplásica, em que há formação deficiente da matriz; tipo hipomineralizada, em que há mineralização deficiente da matriz formada e por fim tipo hipomaturada, em que os cristais de esmalte permanecem imaturos. Clinicamente, as coroas podem apresentar ausência total de esmalte, possuir variação de textura, consistência e coloração. Radiograficamente, os dentes com amelogênese imperfeita não apresentam imagem bem delimitada entre esmalte e dentina. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                          "id": "10:1188",
+                          "type": "NODE",
+                          "edges": [],
+                          "color": {
+                            "r": 0.8941176533699036,
+                            "g": 0.800000011920929,
+                            "b": 1
+                          }
+                        }
+                      },
+                      {
+                        "text": "Sim",
+                        "id": "10:1137",
+                        "from": {
+                          "$ref": "#/edges/0/to/edges/1/to/edges/0/to"
+                        },
+                        "type": "EDGE",
+                        "color": {
+                          "r": 0.7019608020782471,
+                          "g": 0.7019608020782471,
+                          "b": 0.7019608020782471
+                        },
+                        "fromSide": "TOP",
+                        "toSide": "BOTTOM",
+                        "edgeType": "ELBOWED",
+                        "directional": "UNI",
+                        "to": {
+                          "text": "Você provavelmente está diante de uma FLUOROSE ENDÊMICA/ SEVERA $fluorose_endemica A fluorose é uma hipomineralização difusa do esmalte dentário. Ela ocorre devido a exposição do germe dentário a altas concentrações do íon flúor durante sua formação! Sua apresentação clínica varia de acordo com sua severidade e sempre em dentes homólogos, podendo se apresentar como linhas brancas, manchas amarronzadas ou até mesmo depressões porosas! Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                          "id": "10:1136",
+                          "type": "NODE",
+                          "edges": [],
+                          "color": {
+                            "r": 0.8941176533699036,
+                            "g": 0.800000011920929,
+                            "b": 1
+                          }
+                        }
+                      }
+                    ],
+                    "color": {
+                      "r": 0.8941176533699036,
+                      "g": 0.800000011920929,
+                      "b": 1
+                    }
+                  }
+                },
+                {
+                  "text": "Não",
+                  "id": "10:1037",
+                  "from": {
+                    "$ref": "#/edges/0/to/edges/1/to"
+                  },
+                  "type": "EDGE",
+                  "color": {
+                    "r": 0.7019608020782471,
+                    "g": 0.7019608020782471,
+                    "b": 0.7019608020782471
+                  },
+                  "fromSide": "RIGHT",
+                  "toSide": "LEFT",
+                  "edgeType": "ELBOWED",
+                  "directional": "UNI",
+                  "to": {
+                    "text": "No exame de radiografia panorâmica, os dentes apresentam imagem bem delimitada do esmalte dentário?",
+                    "id": "10:1036",
+                    "type": "NODE",
+                    "edges": [
+                      {
+                        "text": "Sim",
+                        "id": "10:1327",
+                        "from": {
+                          "$ref": "#/edges/0/to/edges/1/to/edges/1/to"
+                        },
+                        "type": "EDGE",
+                        "color": {
+                          "r": 0.7019608020782471,
+                          "g": 0.7019608020782471,
+                          "b": 0.7019608020782471
+                        },
+                        "fromSide": "RIGHT",
+                        "toSide": "LEFT",
+                        "edgeType": "ELBOWED",
+                        "directional": "UNI",
+                        "to": {
+                          "text": "A coloração desses dentes se assemelha a coloração esverdeada ?",
+                          "id": "10:1326",
+                          "type": "NODE",
+                          "edges": [
+                            {
+                              "text": "Não",
+                              "id": "10:1444",
+                              "from": {
+                                "$ref": "#/edges/0/to/edges/1/to/edges/1/to/edges/0/to"
+                              },
+                              "type": "EDGE",
+                              "color": {
+                                "r": 0.7019608020782471,
+                                "g": 0.7019608020782471,
+                                "b": 0.7019608020782471
+                              },
+                              "fromSide": "TOP",
+                              "toSide": "BOTTOM",
+                              "edgeType": "ELBOWED",
+                              "directional": "UNI",
+                              "to": {
+                                "text": "O paciente mora ou já morou em áreas endêmicas de alta quantidade de flúor nos lençóis freáticos?",
+                                "id": "10:1443",
+                                "type": "NODE",
+                                "edges": [
+                                  {
+                                    "text": "Sim",
+                                    "id": "10:1619",
+                                    "from": {
+                                      "$ref": "#/edges/0/to/edges/1/to/edges/1/to/edges/0/to/edges/0/to"
+                                    },
+                                    "type": "EDGE",
+                                    "color": {
+                                      "r": 0.7019608020782471,
+                                      "g": 0.7019608020782471,
+                                      "b": 0.7019608020782471
+                                    },
+                                    "fromSide": "RIGHT",
+                                    "toSide": "TOP",
+                                    "edgeType": "ELBOWED",
+                                    "directional": "UNI",
+                                    "to": {
+                                      "$ref": "#/edges/0/to/edges/1/to/edges/0/to/edges/1/to"
+                                    }
+                                  },
+                                  {
+                                    "text": "Não",
+                                    "id": "10:1698",
+                                    "from": {
+                                      "$ref": "#/edges/0/to/edges/1/to/edges/1/to/edges/0/to/edges/0/to"
+                                    },
+                                    "type": "EDGE",
+                                    "color": {
+                                      "r": 0.7019608020782471,
+                                      "g": 0.7019608020782471,
+                                      "b": 0.7019608020782471
+                                    },
+                                    "fromSide": "TOP",
+                                    "toSide": "BOTTOM",
+                                    "edgeType": "ELBOWED",
+                                    "directional": "UNI",
+                                    "to": {
+                                      "text": "Essa imagem se assemelha ao seu caso? $fluorose_endemica",
+                                      "id": "10:1697",
+                                      "type": "NODE",
+                                      "edges": [
+                                        {
+                                          "text": "Não",
+                                          "id": "10:1858",
+                                          "from": {
+                                            "$ref": "#/edges/0/to/edges/1/to/edges/1/to/edges/0/to/edges/0/to/edges/1/to"
+                                          },
+                                          "type": "EDGE",
+                                          "color": {
+                                            "r": 0.7019608020782471,
+                                            "g": 0.7019608020782471,
+                                            "b": 0.7019608020782471
+                                          },
+                                          "fromSide": "LEFT",
+                                          "toSide": "RIGHT",
+                                          "edgeType": "ELBOWED",
+                                          "directional": "UNI",
+                                          "to": {
+                                            "text": "Você provavelmente está diante de um caso de CÁRIE DA PRIMEIRA INFÂNCIA em todos os dentes $carie_precoce A cárie da primeira infância (CPI), é diagnosticada em crianças pré-escolares, com menos de 6 anos de idade, que possuem lesões de cárie cavitadas ou não e/ou restaurações devido à cárie, em uma ou mais superfícies dentárias. É uma doença multifatorial e de progressão rápida. Clinicamente, o tecido dental pode se apresentar como manchas brancas (cárie ativa) e/ou tecido amolecido, além da presença de restaurações. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                            "id": "10:1857",
+                                            "type": "NODE",
+                                            "edges": [],
+                                            "color": {
+                                              "r": 0.8941176533699036,
+                                              "g": 0.800000011920929,
+                                              "b": 1
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "text": "Sim",
+                                          "id": "10:1804",
+                                          "from": {
+                                            "$ref": "#/edges/0/to/edges/1/to/edges/1/to/edges/0/to/edges/0/to/edges/1/to"
+                                          },
+                                          "type": "EDGE",
+                                          "color": {
+                                            "r": 0.7019608020782471,
+                                            "g": 0.7019608020782471,
+                                            "b": 0.7019608020782471
+                                          },
+                                          "fromSide": "TOP",
+                                          "toSide": "RIGHT",
+                                          "edgeType": "ELBOWED",
+                                          "directional": "UNI",
+                                          "to": {
+                                            "$ref": "#/edges/0/to/edges/1/to/edges/0/to/edges/1/to"
+                                          }
+                                        }
+                                      ],
+                                      "color": {
+                                        "r": 0.8941176533699036,
+                                        "g": 0.800000011920929,
+                                        "b": 1
+                                      }
+                                    }
+                                  }
+                                ],
+                                "color": {
+                                  "r": 0.8941176533699036,
+                                  "g": 0.800000011920929,
+                                  "b": 1
+                                }
+                              }
+                            },
+                            {
+                              "text": "Sim",
+                              "id": "10:1389",
+                              "from": {
+                                "$ref": "#/edges/0/to/edges/1/to/edges/1/to/edges/0/to"
+                              },
+                              "type": "EDGE",
+                              "color": {
+                                "r": 0.7019608020782471,
+                                "g": 0.7019608020782471,
+                                "b": 0.7019608020782471
+                              },
+                              "fromSide": "RIGHT",
+                              "toSide": "LEFT",
+                              "edgeType": "ELBOWED",
+                              "directional": "UNI",
+                              "to": {
+                                "text": "Você provavelmente está de frente de um caso de HIPERBILIRRUBINEMIA $hiperbilirrubinemia A hiperbilirrubinemia é uma condição em que a bilirrubina está presente em concentrações elevadas no sangue, algumas de suas possíveis causas são atresia biliar, icterícia grave, insuficiência hepática aguda, hepatite, infecção do trato urinário, fibrose cística, desordem respiratória, desordem hepática, nascimento prematuro e hipoplasia biliar. Clinicamente, todos os dentes apresentam coloração esverdeada, podem apresentar hipoplasia do esmalte dentário, hiperplasia gengival e atraso no desenvolvimento dentário. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                "id": "10:1388",
+                                "type": "NODE",
+                                "edges": [],
+                                "color": {
+                                  "r": 0.8941176533699036,
+                                  "g": 0.800000011920929,
+                                  "b": 1
+                                }
+                              }
+                            }
+                          ],
+                          "color": {
+                            "r": 0.8941176533699036,
+                            "g": 0.800000011920929,
+                            "b": 1
+                          }
+                        }
+                      },
+                      {
+                        "text": "Não",
+                        "id": "10:1293",
+                        "from": {
+                          "$ref": "#/edges/0/to/edges/1/to/edges/1/to"
+                        },
+                        "type": "EDGE",
+                        "color": {
+                          "r": 0.7019608020782471,
+                          "g": 0.7019608020782471,
+                          "b": 0.7019608020782471
+                        },
+                        "fromSide": "TOP",
+                        "toSide": "BOTTOM",
+                        "edgeType": "ELBOWED",
+                        "directional": "UNI",
+                        "to": {
+                          "$ref": "#/edges/0/to/edges/1/to/edges/0/to/edges/0/to"
+                        }
+                      }
+                    ],
+                    "color": {
+                      "r": 0.8941176533699036,
+                      "g": 0.800000011920929,
+                      "b": 1
+                    }
+                  }
+                }
+              ],
+              "color": {
+                "r": 0.8941176533699036,
+                "g": 0.800000011920929,
+                "b": 1
+              }
+            }
+          }
+        ],
+        "color": {
+          "r": 0.8941176533699036,
+          "g": 0.800000011920929,
+          "b": 1
+        }
+      }
+    },
+    {
+      "text": "Coloração/ Translucidez",
+      "id": "1:27",
+      "from": {
+        "$ref": "#"
+      },
+      "type": "EDGE",
+      "color": {
+        "r": 0.7019608020782471,
+        "g": 0.7019608020782471,
+        "b": 0.7019608020782471
+      },
+      "fromSide": "LEFT",
+      "toSide": "RIGHT",
+      "edgeType": "ELBOWED",
+      "directional": "UNI",
+      "to": {
+        "text": "A opacidade apresenta nítida margem entre esmalte alterado e normal?",
+        "id": "1:26",
+        "type": "NODE",
+        "edges": [
+          {
+            "text": "Sim",
+            "id": "5:638",
+            "from": {
+              "$ref": "#/edges/1/to"
+            },
+            "type": "EDGE",
+            "color": {
+              "r": 0.7019608020782471,
+              "g": 0.7019608020782471,
+              "b": 0.7019608020782471
+            },
+            "fromSide": "LEFT",
+            "toSide": "RIGHT",
+            "edgeType": "ELBOWED",
+            "directional": "UNI",
+            "to": {
+              "text": "Essa alteração está presente em algum dos primeiros molares permanentes ou em algum dos segundos molares decíduos?",
+              "id": "5:637",
+              "type": "NODE",
+              "edges": [
+                {
+                  "text": "Não",
+                  "id": "5:742",
+                  "from": {
+                    "$ref": "#/edges/1/to/edges/0/to"
+                  },
+                  "type": "EDGE",
+                  "color": {
+                    "r": 0.7019608020782471,
+                    "g": 0.7019608020782471,
+                    "b": 0.7019608020782471
+                  },
+                  "fromSide": "BOTTOM",
+                  "toSide": "TOP",
+                  "edgeType": "ELBOWED",
+                  "directional": "UNI",
+                  "to": {
+                    "text": "Houve algum evento traumático na região? (Na anamnese, investigue se houve algum trauma, seja por motivo de queda, sonda nasogástrica, ou outros)",
+                    "id": "5:741",
+                    "type": "NODE",
+                    "edges": [
+                      {
+                        "text": "Connector line",
+                        "id": "5:760",
+                        "from": {
+                          "$ref": "#/edges/1/to/edges/0/to/edges/0/to"
+                        },
+                        "type": "EDGE",
+                        "color": {
+                          "r": 0.7019608020782471,
+                          "g": 0.7019608020782471,
+                          "b": 0.7019608020782471
+                        },
+                        "fromSide": "LEFT",
+                        "toSide": "LEFT",
+                        "edgeType": "ELBOWED",
+                        "directional": "UNI",
+                        "to": {
+                          "$ref": "#/edges/1/to/edges/0/to/edges/0/to"
+                        }
+                      },
+                      {
+                        "text": "Sim",
+                        "id": "5:775",
+                        "from": {
+                          "$ref": "#/edges/1/to/edges/0/to/edges/0/to"
+                        },
+                        "type": "EDGE",
+                        "color": {
+                          "r": 0.7019608020782471,
+                          "g": 0.7019608020782471,
+                          "b": 0.7019608020782471
+                        },
+                        "fromSide": "RIGHT",
+                        "toSide": "RIGHT",
+                        "edgeType": "ELBOWED",
+                        "directional": "UNI",
+                        "to": {
+                          "text": "Você provavelmente está diante de uma OPACIDADE DEMARCADA $opacidade_demarcada A opacidade demarcada é uma hipomineralização do esmalte dentário, que ocorre devido a distúrbios na fase de maturação ou mineralização da matriz e gera alterações na translucidez ou opacidade do esmalte, mas sem perda estrutural. Clinicamente, apresenta translucidez de grau variável no esmalte, com limites nítidos e coloração esbranquiçada e/ou amarelada! Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                          "id": "5:774",
+                          "type": "NODE",
+                          "edges": [],
+                          "color": {
+                            "r": 0.8941176533699036,
+                            "g": 0.800000011920929,
+                            "b": 1
+                          }
+                        }
+                      },
+                      {
+                        "text": "Não",
+                        "id": "6:841",
+                        "from": {
+                          "$ref": "#/edges/1/to/edges/0/to/edges/0/to"
+                        },
+                        "type": "EDGE",
+                        "color": {
+                          "r": 0.7019608020782471,
+                          "g": 0.7019608020782471,
+                          "b": 0.7019608020782471
+                        },
+                        "fromSide": "LEFT",
+                        "toSide": "RIGHT",
+                        "edgeType": "ELBOWED",
+                        "directional": "UNI",
+                        "to": {
+                          "text": "Quanto a localização da alteração:",
+                          "id": "6:840",
+                          "type": "NODE",
+                          "edges": [
+                            {
+                              "text": "Está presente em Segundos Molares, Pré-Molares ou Caninos Permanentes",
+                              "id": "8:873",
+                              "from": {
+                                "$ref": "#/edges/1/to/edges/0/to/edges/0/to/edges/2/to"
+                              },
+                              "type": "EDGE",
+                              "color": {
+                                "r": 0.7019608020782471,
+                                "g": 0.7019608020782471,
+                                "b": 0.7019608020782471
+                              },
+                              "fromSide": "LEFT",
+                              "toSide": "RIGHT",
+                              "edgeType": "ELBOWED",
+                              "directional": "UNI",
+                              "to": {
+                                "text": "Você provavelmente está a frente de uma lesão de HOPTS $hopts As hipomineralizações em dentes permanentes que não sejam em dentes índices, como caninos, pré-molares e segundos molares, são chamadas de HOPT (hypomineralisation of other permanent teeth), assim como na HMI é uma condição caracterizada por opacidades demarcadas de cor branca, amarela ou amarronzadas e o esmalte afetado por essa condição geralmente é considerado frágil devido sua maciez e porosidade, sendo mais suscetível a fraturas devido aos esforços mastigatórios. Além disso, a presença de HMI ou HMD é considerado um fator preditor para HOPT. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                "id": "8:872",
+                                "type": "NODE",
+                                "edges": [],
+                                "color": {
+                                  "r": 0.8941176533699036,
+                                  "g": 0.800000011920929,
+                                  "b": 1
+                                }
+                              }
+                            },
+                            {
+                              "text": "Essa alteração está presente em algum dente decíduo, exceto no segundo molar.",
+                              "id": "8:887",
+                              "from": {
+                                "$ref": "#/edges/1/to/edges/0/to/edges/0/to/edges/2/to"
+                              },
+                              "type": "EDGE",
+                              "color": {
+                                "r": 0.7019608020782471,
+                                "g": 0.7019608020782471,
+                                "b": 0.7019608020782471
+                              },
+                              "fromSide": "BOTTOM",
+                              "toSide": "TOP",
+                              "edgeType": "ELBOWED",
+                              "directional": "UNI",
+                              "to": {
+                                "text": "Você provavelmente está a frente de uma lesão de HIPOMINERALIZAÇÃO EM DENTE DECÍDUO $hmd As hipomineralizações isoladas em dentes decíduos possuem causa multifatorial, podendo incluir fatores pré e pós-natais, além de fatores ambientais e outros, não tendo uma causa definida. Éuma condição caracterizada por opacidades demarcadas de cor branca, amarela ou amarronzadas e o esmalte afetado por essa condição geralmente é considerado frágil devido sua maciez e porosidade, sendo mais suscetível a fraturas devido aos esforços mastigatórios. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                "id": "8:886",
+                                "type": "NODE",
+                                "edges": [],
+                                "color": {
+                                  "r": 0.8941176533699036,
+                                  "g": 0.800000011920929,
+                                  "b": 1
+                                }
+                              }
+                            }
+                          ],
+                          "color": {
+                            "r": 0.8941176533699036,
+                            "g": 0.800000011920929,
+                            "b": 1
+                          }
+                        }
+                      }
+                    ],
+                    "color": {
+                      "r": 0.8941176533699036,
+                      "g": 0.800000011920929,
+                      "b": 1
+                    }
+                  }
+                },
+                {
+                  "text": "Sim",
+                  "id": "5:671",
+                  "from": {
+                    "$ref": "#/edges/1/to/edges/0/to"
+                  },
+                  "type": "EDGE",
+                  "color": {
+                    "r": 0.7019608020782471,
+                    "g": 0.7019608020782471,
+                    "b": 0.7019608020782471
+                  },
+                  "fromSide": "LEFT",
+                  "toSide": "RIGHT",
+                  "edgeType": "ELBOWED",
+                  "directional": "UNI",
+                  "to": {
+                    "text": "Você provavelmente está diante de uma lesão de HMI/HMD. $hmi/hmd A hipomineralização molar-incisivo (HMI) é um defeito de desenvolvimento do esmalte que afeta um ou até os quatro primeiros molares permanentes, associados ou não à alterações nos incisivos e segundos molares, sua versão em dentes decíduos é chamada de hipomineralização em molares decíduos (HMD), em que o dente índice é o segundo molar decíduo (nesse caso, HSMD). É caracterizada por opacidades demarcadas de cor branca, amarela ou amarronzadas, principalmente nas superfícies oclusais e vestibulares. O esmalte afetado por essa condição geralmente é considerado frágil devido sua maciez e porosidade, sendo mais suscetível a fraturas devido aos esforços mastigatórios. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                    "id": "5:670",
+                    "type": "NODE",
+                    "edges": [],
+                    "color": {
+                      "r": 0.8941176533699036,
+                      "g": 0.800000011920929,
+                      "b": 1
+                    }
+                  }
+                }
+              ],
+              "color": {
+                "r": 0.8941176533699036,
+                "g": 0.800000011920929,
+                "b": 1
+              }
+            }
+          },
+          {
+            "text": "Não",
+            "id": "8:991",
+            "from": {
+              "$ref": "#/edges/1/to"
+            },
+            "type": "EDGE",
+            "color": {
+              "r": 0.7019608020782471,
+              "g": 0.7019608020782471,
+              "b": 0.7019608020782471
+            },
+            "fromSide": "BOTTOM",
+            "toSide": "TOP",
+            "edgeType": "ELBOWED",
+            "directional": "UNI",
+            "to": {
+              "text": "Essas alterações estão presentes em dentes homólogos em um padrão linear e simétrico?",
+              "id": "8:990",
+              "type": "NODE",
+              "edges": [
+                {
+                  "text": "Não",
+                  "id": "8:1017",
+                  "from": {
+                    "$ref": "#/edges/1/to/edges/1/to"
+                  },
+                  "type": "EDGE",
+                  "color": {
+                    "r": 0.7019608020782471,
+                    "g": 0.7019608020782471,
+                    "b": 0.7019608020782471
+                  },
+                  "fromSide": "RIGHT",
+                  "toSide": "LEFT",
+                  "edgeType": "ELBOWED",
+                  "directional": "UNI",
+                  "to": {
+                    "text": "Você provavelmente está a frente de uma OPACIDADE DIFUSA $opacidadedifusa As opacidades difusas são uma hipomineralização do esmalte dentário, que ocorre devido a distúrbios na fase de maturação ou mineralização da matriz e gera alterações na translucidez ou opacidade do esmalte, mas sem perda estrutural. Clinicamente, apresenta translucidez de grau variável no esmalte, com limites mal definidos, não sendo possível diferenciar exatamente qual é o esmalte normal e qual é o alterado. Sua coloração pode variar entre esbranquiçada e/ou amarelada! Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                    "id": "8:1016",
+                    "type": "NODE",
+                    "edges": [],
+                    "color": {
+                      "r": 0.8941176533699036,
+                      "g": 0.800000011920929,
+                      "b": 1
+                    }
+                  }
+                },
+                {
+                  "text": "Sim",
+                  "id": "8:1037",
+                  "from": {
+                    "$ref": "#/edges/1/to/edges/1/to"
+                  },
+                  "type": "EDGE",
+                  "color": {
+                    "r": 0.7019608020782471,
+                    "g": 0.7019608020782471,
+                    "b": 0.7019608020782471
+                  },
+                  "fromSide": "LEFT",
+                  "toSide": "RIGHT",
+                  "edgeType": "ELBOWED",
+                  "directional": "UNI",
+                  "to": {
+                    "text": "O paciente ingere/ingeria creme dental com flúor ou mora em áreas endêmicas de alta quantidade de flúor nos lençóis freáticos?",
+                    "id": "8:1036",
+                    "type": "NODE",
+                    "edges": [
+                      {
+                        "text": "Não",
+                        "id": "8:1113",
+                        "from": {
+                          "$ref": "#/edges/1/to/edges/1/to/edges/1/to"
+                        },
+                        "type": "EDGE",
+                        "color": {
+                          "r": 0.7019608020782471,
+                          "g": 0.7019608020782471,
+                          "b": 0.7019608020782471
+                        },
+                        "fromSide": "BOTTOM",
+                        "toSide": "TOP",
+                        "edgeType": "ELBOWED",
+                        "directional": "UNI",
+                        "to": {
+                          "text": "O paciente já usou aparelho ortodôntico?",
+                          "id": "8:1112",
+                          "type": "NODE",
+                          "edges": [
+                            {
+                              "text": "Não",
+                              "id": "8:1221",
+                              "from": {
+                                "$ref": "#/edges/1/to/edges/1/to/edges/1/to/edges/0/to"
+                              },
+                              "type": "EDGE",
+                              "color": {
+                                "r": 0.7019608020782471,
+                                "g": 0.7019608020782471,
+                                "b": 0.7019608020782471
+                              },
+                              "fromSide": "BOTTOM",
+                              "toSide": "TOP",
+                              "edgeType": "ELBOWED",
+                              "directional": "UNI",
+                              "to": {
+                                "text": "Na anamnese indentifique se o paciente possui alguma das questões abaixo:",
+                                "id": "8:1220",
+                                "type": "NODE",
+                                "edges": [
+                                  {
+                                    "text": "O paciente usou suplemento a base de SULFATO FERROSO",
+                                    "id": "9:235",
+                                    "from": {
+                                      "$ref": "#/edges/1/to/edges/1/to/edges/1/to/edges/0/to/edges/0/to"
+                                    },
+                                    "type": "EDGE",
+                                    "color": {
+                                      "r": 0.7019608020782471,
+                                      "g": 0.7019608020782471,
+                                      "b": 0.7019608020782471
+                                    },
+                                    "fromSide": "BOTTOM",
+                                    "toSide": "TOP",
+                                    "edgeType": "ELBOWED",
+                                    "directional": "UNI",
+                                    "to": {
+                                      "text": "Você provavelmente está diante de um MANCHAMENTO POR SULFATO FERROSO $sulfato_ferroso O sulfato ferroso é utilizado como suplementação para crianças de até 2 anos de idade e pode provocar manchamentos provisórios ou definitivos nas superfícies dentárias! Clinicamente, se apresenta como manchas, linhas e/ou pontilhados negros, acinzentados ou na cor ferrugem. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                      "id": "9:234",
+                                      "type": "NODE",
+                                      "edges": [],
+                                      "color": {
+                                        "r": 0.8941176533699036,
+                                        "g": 0.800000011920929,
+                                        "b": 1
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": "O paciente possui DENTES COM COR ESVERDEADA",
+                                    "id": "9:207",
+                                    "from": {
+                                      "$ref": "#/edges/1/to/edges/1/to/edges/1/to/edges/0/to/edges/0/to"
+                                    },
+                                    "type": "EDGE",
+                                    "color": {
+                                      "r": 0.7019608020782471,
+                                      "g": 0.7019608020782471,
+                                      "b": 0.7019608020782471
+                                    },
+                                    "fromSide": "RIGHT",
+                                    "toSide": "LEFT",
+                                    "edgeType": "ELBOWED",
+                                    "directional": "UNI",
+                                    "to": {
+                                      "text": "Você provavelmente está diante de um MANCHAMENTO POR HIPERBILIRRUBINEMIA $hiperbilirrubinemia A hiperbilirrubinemia é uma condição em que a bilirrubina está presente em concentrações elevadas no sangue, algumas de suas possíveis causas são atresia biliar, icterícia grave, insuficiência hepática aguda, hepatite, infecção do trato urinário, fibrose cística, desordem respiratória, desordem hepática, nascimento prematuro e hipoplasia biliar. Clinicamente, todos os dentes apresentam coloração esverdeada, podem apresentar hipoplasia do esmalte dentário, hiperplasia gengival e atraso no desenvolvimento dentário. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                      "id": "9:206",
+                                      "type": "NODE",
+                                      "edges": [],
+                                      "color": {
+                                        "r": 0.8941176533699036,
+                                        "g": 0.800000011920929,
+                                        "b": 1
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": "O paciente usou algum antibiótico do grupo das TETRACICLINAS",
+                                    "id": "9:167",
+                                    "from": {
+                                      "$ref": "#/edges/1/to/edges/1/to/edges/1/to/edges/0/to/edges/0/to"
+                                    },
+                                    "type": "EDGE",
+                                    "color": {
+                                      "r": 0.7019608020782471,
+                                      "g": 0.7019608020782471,
+                                      "b": 0.7019608020782471
+                                    },
+                                    "fromSide": "LEFT",
+                                    "toSide": "RIGHT",
+                                    "edgeType": "ELBOWED",
+                                    "directional": "UNI",
+                                    "to": {
+                                      "text": "Você provavelmente está diante de um MANCHAMENTO POR TETRACICLINA $tetraciclina O manchamento por tetraciclina ocorre quando o antibiótico é ingerido no período de formação dos dentes e suas moléculas são incorporadas à dentina, conferindo uma coloração acinzentada, amarelada ou até mesmo marrom escuro! Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                      "id": "9:166",
+                                      "type": "NODE",
+                                      "edges": [],
+                                      "color": {
+                                        "r": 0.8941176533699036,
+                                        "g": 0.800000011920929,
+                                        "b": 1
+                                      }
+                                    }
+                                  }
+                                ],
+                                "color": {
+                                  "r": 0.8941176533699036,
+                                  "g": 0.800000011920929,
+                                  "b": 1
+                                }
+                              }
+                            },
+                            {
+                              "text": "Sim",
+                              "id": "8:1189",
+                              "from": {
+                                "$ref": "#/edges/1/to/edges/1/to/edges/1/to/edges/0/to"
+                              },
+                              "type": "EDGE",
+                              "color": {
+                                "r": 0.7019608020782471,
+                                "g": 0.7019608020782471,
+                                "b": 0.7019608020782471
+                              },
+                              "fromSide": "LEFT",
+                              "toSide": "RIGHT",
+                              "edgeType": "ELBOWED",
+                              "directional": "UNI",
+                              "to": {
+                                "text": "Você provavelmente está diante de uma LESÃO CARIOSA ASSOCIADA AO USO DE APARELHO ORTODÔNTICO $lesão_aparelho_ortodontico",
+                                "id": "8:1188",
+                                "type": "NODE",
+                                "edges": [],
+                                "color": {
+                                  "r": 0.8941176533699036,
+                                  "g": 0.800000011920929,
+                                  "b": 1
+                                }
+                              }
+                            }
+                          ],
+                          "color": {
+                            "r": 0.8941176533699036,
+                            "g": 0.800000011920929,
+                            "b": 1
+                          }
+                        }
+                      },
+                      {
+                        "text": "Sim",
+                        "id": "8:1076",
+                        "from": {
+                          "$ref": "#/edges/1/to/edges/1/to/edges/1/to"
+                        },
+                        "type": "EDGE",
+                        "color": {
+                          "r": 0.7019608020782471,
+                          "g": 0.7019608020782471,
+                          "b": 0.7019608020782471
+                        },
+                        "fromSide": "LEFT",
+                        "toSide": "RIGHT",
+                        "edgeType": "ELBOWED",
+                        "directional": "UNI",
+                        "to": {
+                          "text": "Você provavelmente está diante de uma FLUOROSE $fluorose A fluorose é uma hipomineralização difusa do esmalte dentário. Ela ocorre devido a exposição do germe dentário a altas concentrações do íon flúor durante sua formação! Sua apresentação clínica varia de acordo com sua severidade e sempre em dentes homólogos, podendo se apresentar como linhas brancas, manchas amarronzadas ou até mesmo depressões porosas! Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                          "id": "8:1075",
+                          "type": "NODE",
+                          "edges": [],
+                          "color": {
+                            "r": 0.8941176533699036,
+                            "g": 0.800000011920929,
+                            "b": 1
+                          }
+                        }
+                      }
+                    ],
+                    "color": {
+                      "r": 0.8941176533699036,
+                      "g": 0.800000011920929,
+                      "b": 1
+                    }
+                  }
+                }
+              ],
+              "color": {
+                "r": 0.8941176533699036,
+                "g": 0.800000011920929,
+                "b": 1
+              }
+            }
+          }
+        ],
+        "color": {
+          "r": 0.8941176533699036,
+          "g": 0.800000011920929,
+          "b": 1
+        }
+      }
+    },
+    {
+      "text": "Espessura",
+      "id": "1:41",
+      "from": {
+        "$ref": "#"
+      },
+      "type": "EDGE",
+      "color": {
+        "r": 0.7019608020782471,
+        "g": 0.7019608020782471,
+        "b": 0.7019608020782471
+      },
+      "fromSide": "RIGHT",
+      "toSide": "LEFT",
+      "edgeType": "ELBOWED",
+      "directional": "UNI",
+      "to": {
+        "text": "As margens são lisas?",
+        "id": "1:40",
+        "type": "NODE",
+        "edges": [
+          {
+            "text": "Sim",
+            "id": "2:126",
+            "from": {
+              "$ref": "#/edges/2/to"
+            },
+            "type": "EDGE",
+            "color": {
+              "r": 0.7019608020782471,
+              "g": 0.7019608020782471,
+              "b": 0.7019608020782471
+            },
+            "fromSide": "RIGHT",
+            "toSide": "LEFT",
+            "edgeType": "ELBOWED",
+            "directional": "UNI",
+            "to": {
+              "text": "Nessa alteração os incisvos possuem formato de chave de fenda?",
+              "id": "2:125",
+              "type": "NODE",
+              "edges": [
+                {
+                  "text": "Não",
+                  "id": "2:282",
+                  "from": {
+                    "$ref": "#/edges/2/to/edges/0/to"
+                  },
+                  "type": "EDGE",
+                  "color": {
+                    "r": 0.7019608020782471,
+                    "g": 0.7019608020782471,
+                    "b": 0.7019608020782471
+                  },
+                  "fromSide": "RIGHT",
+                  "toSide": "LEFT",
+                  "edgeType": "ELBOWED",
+                  "directional": "UNI",
+                  "to": {
+                    "text": "O dente decíduo anterior à esse elemento passou por alguma infecção bacteriana que atingiu o periápice, decorrente de uma lesão cariosa ou trauma?",
+                    "id": "2:281",
+                    "type": "NODE",
+                    "edges": [
+                      {
+                        "text": "Sim",
+                        "id": "5:464",
+                        "from": {
+                          "$ref": "#/edges/2/to/edges/0/to/edges/0/to"
+                        },
+                        "type": "EDGE",
+                        "color": {
+                          "r": 0.7019608020782471,
+                          "g": 0.7019608020782471,
+                          "b": 0.7019608020782471
+                        },
+                        "fromSide": "BOTTOM",
+                        "toSide": "TOP",
+                        "edgeType": "ELBOWED",
+                        "directional": "UNI",
+                        "to": {
+                          "text": "DENTE DE TURNER: $turner O “dente de Turner” é uma forma de hipoplasia, que acontece quando um dente decíduo passa por uma infecção bacteriana, decorrente de uma lesão cariosa ou traumática. Ao atingir o ápice dental, a infecção afeta o germe dentário do dente permanente, sendo que a severidade depende do estágio de formação que o permanente se encontra. Clinicamente, o dente de Turner pode apresentar manchas esbranquiçadas, ranhuras amareladas/ amarronzadas e perda estrutural. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                          "id": "5:463",
+                          "type": "NODE",
+                          "edges": [],
+                          "color": {
+                            "r": 0.8941176533699036,
+                            "g": 0.800000011920929,
+                            "b": 1
+                          }
+                        }
+                      },
+                      {
+                        "text": "Não",
+                        "id": "5:584",
+                        "from": {
+                          "$ref": "#/edges/2/to/edges/0/to/edges/0/to"
+                        },
+                        "type": "EDGE",
+                        "color": {
+                          "r": 0.7019608020782471,
+                          "g": 0.7019608020782471,
+                          "b": 0.7019608020782471
+                        },
+                        "fromSide": "RIGHT",
+                        "toSide": "LEFT",
+                        "edgeType": "ELBOWED",
+                        "directional": "UNI",
+                        "to": {
+                          "text": "HIPLOPLASIA: $hipoplasia As alterações hipoplásicas são de caráter quantitativo e ocorrem quando há uma formação incompleta ou defeituosa da matriz orgânica do esmalte dentário. Clinicamente pode se apresentar como regiões de fóssulas, fissuras ou grandes áreas de perda de esmalte com coloração variando entre áreas sem alteração de cor à esbranquiçadas, amareladas e/ou acastanhadas. É importante ressaltar que em alguns casos, lesões de cariosas podem estar associadas à hipoplasia. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                          "id": "5:583",
+                          "type": "NODE",
+                          "edges": [],
+                          "color": {
+                            "r": 0.8941176533699036,
+                            "g": 0.800000011920929,
+                            "b": 1
+                          }
+                        }
+                      }
+                    ],
+                    "color": {
+                      "r": 0.8941176533699036,
+                      "g": 0.800000011920929,
+                      "b": 1
+                    }
+                  }
+                },
+                {
+                  "text": "Sim",
+                  "id": "2:339",
+                  "from": {
+                    "$ref": "#/edges/2/to/edges/0/to"
+                  },
+                  "type": "EDGE",
+                  "color": {
+                    "r": 0.7019608020782471,
+                    "g": 0.7019608020782471,
+                    "b": 0.7019608020782471
+                  },
+                  "fromSide": "BOTTOM",
+                  "toSide": "TOP",
+                  "edgeType": "ELBOWED",
+                  "directional": "UNI",
+                  "to": {
+                    "text": "INCISIVOS DE HUTCHINSON: $hutchinson Os incisivos de Hutchinson são característicos de sífilis congênita, uma doença causada pela transmissão da bactéria Treponema pallidum. Clinicamente, os incisivos apresentam um formato de chave de fenda e os molares podem apresentar um formato de amora ou framboesa.",
+                    "id": "2:338",
+                    "type": "NODE",
+                    "edges": [],
+                    "color": {
+                      "r": 0.8941176533699036,
+                      "g": 0.800000011920929,
+                      "b": 1
+                    }
+                  }
+                }
+              ],
+              "color": {
+                "r": 0.8941176533699036,
+                "g": 0.800000011920929,
+                "b": 1
+              }
+            }
+          },
+          {
+            "text": "Não",
+            "id": "2:203",
+            "from": {
+              "$ref": "#/edges/2/to"
+            },
+            "type": "EDGE",
+            "color": {
+              "r": 0.7019608020782471,
+              "g": 0.7019608020782471,
+              "b": 0.7019608020782471
+            },
+            "fromSide": "BOTTOM",
+            "toSide": "TOP",
+            "edgeType": "ELBOWED",
+            "directional": "UNI",
+            "to": {
+              "text": "Você provavelmente está diante de um caso de TRAUMATISMO. Investigue o histórico de quedas. $traumatismo",
+              "id": "2:202",
+              "type": "NODE",
+              "edges": [],
+              "color": {
+                "r": 0.8941176533699036,
+                "g": 0.800000011920929,
+                "b": 1
+              }
+            }
+          }
+        ],
+        "color": {
+          "r": 0.8941176533699036,
+          "g": 0.800000011920929,
+          "b": 1
+        }
+      }
+    }
+  ],
+  "color": {
+    "r": 0.8941176533699036,
+    "g": 0.800000011920929,
+    "b": 1
+  }
+}

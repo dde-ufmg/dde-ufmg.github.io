@@ -1,0 +1,102 @@
+/* Estiliza a página para que os elementos fiquem centralizados e bem distribuídos */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Estilo para o contêiner principal */
+#content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Título da página */
+h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+}
+
+/* Estilo para as opções */
+#options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+}
+
+.option {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+}
+
+/* Efeito hover para as opções */
+.option:hover {
+    background-color: #2980b9;
+}
+
+/* Tornar a página responsiva */
+@media (max-width: 600px) {
+    .option {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+/* Estilo do botão "Voltar" com seta */
+#backBtn {
+    position: absolute;  /* Fixa o botão no topo da página */
+    top: 10px;
+    left: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Ícone da seta (usando Unicode) */
+#backBtn::before {
+    content: '←';  /* Seta Unicode para trás */
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+/* Efeito de hover */
+#backBtn:hover {
+    color: #000;
+}
+
+/* Tornar o botão responsivo */
+@media (max-width: 600px) {
+    #backBtn {
+        font-size: 20px;
+        top: 5px;
+        left: 5px;
+    }
+    #backBtn::before {
+        font-size: 20px;
+    }
+}

@@ -1,20 +1,18 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Diagnóstico DDEs</title>
-<link rel="stylesheet" type="text/css" href="./css/theme.css">
-
-<script type="text/javascript">
-	</script>
-	<script type="module">
-		import { flowquest } from "./js/flowchart.js";
-		document.addEventListener("DOMContentLoaded", function() {
-			flowquest();
-		}, false);
-	</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph Navigation</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<h3>Diagnóstico DDEs</h3>
-	<div id="flowquest_container"></div>
+    <button id="backBtn">Voltar</button> <!-- Botão de voltar -->
+
+    <div id="content"></div>
+    <div id="options"></div>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
