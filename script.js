@@ -3,10 +3,15 @@ let currentNode = {};
 const historyStack = [];
 
 function displayNode(node) {
+    // Substitui qualquer referência de imagem no texto
+    const formattedText = node.text.replace(/\$([a-zA-Z0-9-_]+)/g, (match, imgName) => {
+        return `<img src="/images/${imgName}.png" alt="${imgName}" class="dynamic-image">`;
+    });
+
     historyStack.push(node);
     // console.log(historyStack);
     
-    document.getElementById('content').innerHTML = `<h2>${node.text}</h2>`;
+    document.getElementById('content').innerHTML = `<h2>${formattedText}</h2>`;
     const optionsDiv = document.getElementById('options');
     optionsDiv.innerHTML = '';
     node.edges.forEach(edge => {

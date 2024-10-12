@@ -100,3 +100,20 @@ h2 {
         font-size: 20px;
     }
 }
+
+/* Estilo para as imagens dinâmicas */
+.dynamic-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem e adiciona espaçamento */
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+    .dynamic-image {
+        width: 90%; /* Reduz o tamanho das imagens em telas menores */
+    }
+}
