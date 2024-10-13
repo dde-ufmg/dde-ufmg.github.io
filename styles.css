@@ -16,7 +16,13 @@ body {
 
 /* Container principal do aplicativo */
 #app-container {
-    background-color: white;
+    /* background-color: white; */
+    background-image: url(./assets/fao_ufmg.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+    backdrop-filter: blur(100%);
+
     width: 320px;
     border-radius: 25px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -25,75 +31,89 @@ body {
 }
 
 /* Estilo da mensagem de boas-vindas */
-#welcome-message h1 {
-    color: #ffbb00;
-    font-size: 2em;
-    font-weight: bold;
-    text-shadow: 2px 2px #ff6700;
+
+
+div.welcome-message {
+    margin-top: 20px;
+    background-color: #ffffff;
+    border: 4px, solid, #ffc928;
+    border-radius: 25px;
+    padding: 5px;
+    width: 80%;
+    h1 {
+        color: #ffc928;
+        font-size: 2em;
+        font-weight: bold;
+        text-shadow: 2px 2px #977759;
+    }    
 }
 
 /* Caixa de descrição */
 #description-box {
-    background-color: #ffe066;
+    background-color: #977759;
+    color: #ffffff;
     border-radius: 15px;
     padding: 15px;
+    padding-left: 30px;
     margin: 20px 0;
     font-size: 0.9em;
     line-height: 1.5;
-    text-align: justify;
+    font-weight: 600;
+    text-align: left;
 }
 
 /* Links dentro da descrição */
 #description-box a {
     font-weight: bold;
-    color: #ff6700;
+    color: #fede89;
     text-decoration: none;
 }
 
-/* Botão Acesse o artigo */
-#access-article {
-    background-color: #ff6700;
-    color: white;
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-link {
+    margin: 10px;
+    background-color: #ffc928;
     border: none;
     border-radius: 25px;
     padding: 10px 20px;
     margin: 10px 0;
     font-size: 1.2em;
+    font-weight: 600;
     cursor: pointer;
-    width: 100%;
+    width: 80%;
+    a {
+        color: #977759;
+        text-decoration: none;
+        text-shadow: 1px 1px #eeeeee;
+    }
 }
-
-#access-article:hover {
+    
+.home-link:hover {
     background-color: #e55c00;
-}
-
-/* Botão Iniciar */
-#start-app {
-    background-color: #ff8c00;
-    color: white;
-    border: none;
-    border-radius: 25px;
-    padding: 10px 20px;
-    font-size: 1.5em;
-    cursor: pointer;
-    width: 100%;
-}
-
-#start-app:hover {
-    background-color: #ff7000;
 }
 
 /* Estilos do rodapé */
 footer {
+    display: flex;
+    flex-direction: column;
     margin-top: 20px;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 footer p {
+    align-self: center;
     font-size: 0.8em;
     color: #777;
 }
 
 #footer-logo {
-    width: 80px;
+    width: 160px;
     margin-top: 10px;
 }
