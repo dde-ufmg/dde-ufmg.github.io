@@ -4,7 +4,7 @@
   "type": "NODE",
   "edges": [
     {
-      "text": "Coloração e Espessura",
+      "text": "{{ Coloração }} e {{ Espessura }}",
       "id": "1:13",
       "from": {
         "$ref": "#"
@@ -578,7 +578,7 @@
       }
     },
     {
-      "text": "Coloração/ Translucidez",
+      "text": "{{ Coloração }} / {{ Translucidez }}",
       "id": "1:27",
       "from": {
         "$ref": "#"
@@ -1110,7 +1110,7 @@
       }
     },
     {
-      "text": "Espessura",
+      "text": "{{ Espessura }}",
       "id": "1:41",
       "from": {
         "$ref": "#"

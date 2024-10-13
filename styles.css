@@ -35,7 +35,7 @@ h2 {
 }
 
 .option {
-    background-color: #3498db;
+    background-color: #ffc928;
     color: white;
     padding: 15px 25px;
     text-align: center;
@@ -43,11 +43,12 @@ h2 {
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-size: 18px;
+    border-radius: 50px;
 }
 
 /* Efeito hover para as opções */
 .option:hover {
-    background-color: #2980b9;
+    background-color: #efb918;
 }
 
 /* Tornar a página responsiva */
@@ -115,5 +116,60 @@ h2 {
 @media (max-width: 600px) {
     .dynamic-image {
         width: 90%; /* Reduz o tamanho das imagens em telas menores */
+    }
+}
+
+
+/* Estilo do contêiner das definições */
+#definitions {
+    display: flex;
+    flex-wrap: wrap; /* Para permitir múltiplos cards lado a lado */
+    justify-content: space-between;
+    gap: 20px; /* Espaçamento entre os cards */
+    padding: 20px;
+}
+
+/* Estilo dos cards de definição */
+.definition {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    transition: transform 0.2s, box-shadow 0.2s ease-in-out;
+}
+
+/* Efeito hover para realçar os cards */
+.definition:hover {
+    transform: translateY(-5px); /* Eleva o card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+}
+
+/* Estilo para o título dos cards */
+.definition h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o parágrafo */
+.definition p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    #definitions {
+        flex-direction: column; /* Empilha os cards em telas menores */
+        gap: 15px;
+    }
+    .definition {
+        max-width: 100%; /* Garantir que os cards ocupem toda a largura disponível */
     }
 }
