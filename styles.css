@@ -63,10 +63,11 @@ div.welcome-message {
 }
 
 /* Links dentro da descrição */
-#description-box a {
+#description-box span {
     font-weight: bold;
     color: #fede89;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .home-content {
@@ -120,4 +121,83 @@ footer p {
 #footer-logo {
     width: 160px;
     margin-top: 10px;
+}
+
+.modal {
+    display: none; /* Oculto por padrão */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #000;
+}
+
+/* Estilo do contêiner das definições */
+/* #definitions {
+    display: flex;
+    flex-wrap: wrap; /* Para permitir múltiplos cards lado a lado */
+    /* justify-content: space-between; */
+    /* gap: 20px; Espaçamento entre os cards */
+    /* padding: 20px; */
+/* } */ 
+
+/* Estilo dos cards de definição */
+.definition {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    transition: transform 0.2s, box-shadow 0.2s ease-in-out;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Efeito hover para realçar os cards */
+.definition:hover {
+    transform: translateY(-5px); /* Eleva o card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+}
+
+/* Estilo para o título dos cards */
+.definition h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o parágrafo */
+.definition p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
 }

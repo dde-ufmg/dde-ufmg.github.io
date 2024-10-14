@@ -1,5 +1,7 @@
 {
     "Coloração": "Refere-se à cor do esmalte, que pode variar em condições normais de branco a levemente amarelado ou acinzentado, dependendo da composição mineral e da dentina subjacente. Alterações de coloração podem ocorrer devido a fatores como desgaste, alimentação, ou fluorose dentária.",
     "Translucidez": "Descreve a capacidade do esmalte de permitir a passagem parcial da luz. Em esmalte saudável, essa translucidez contribui para a aparência brilhante e suave dos dentes, e alterações podem indicar desgaste ou desmineralização.",
-    "Espessura":  "Refere-se à camada de esmalte que cobre a superfície do dente. A espessura varia entre as áreas do dente (por exemplo, mais espessa nas cúspides dos molares). Perda de espessura pode ocorrer devido a desgaste, erosão ou hipoplasias."
+    "Espessura":  "Refere-se à camada de esmalte que cobre a superfície do dente. A espessura varia entre as áreas do dente (por exemplo, mais espessa nas cúspides dos molares). Perda de espessura pode ocorrer devido a desgaste, erosão ou hipoplasias.",
+    "ICDAS": "Sistema Internacional de Detecção e Avaliação de Cárie",
+    "DDE": "Defeitos de Esmalte Dentário"
 }
