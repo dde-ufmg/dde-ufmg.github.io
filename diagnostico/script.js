@@ -2,8 +2,11 @@ let currentNode = {};
 
 const historyStack = [];
 
-function replaceImagesAndDefinitions(text) {
+function replaceImagesAndDefinitions(text, isFinalResult) {
     const formattedText = text.replace(/\$([a-zA-Z0-9-_]+)/g, (match, imgName) => {
+        if (isFinalResult) {
+            return `</h2><img src="./images/${imgName}.png" alt="${imgName}" class="dynamic-image"><p>`;
+        }
         return `<img src="./images/${imgName}.png" alt="${imgName}" class="dynamic-image">`;
     });
 
@@ -11,8 +14,10 @@ function replaceImagesAndDefinitions(text) {
 }
 
 function displayNode(node, definitionsDictionary) {
+    const isFinalResult = node.edges.length === 0;
+
     // Substitui qualquer referência de imagem no texto
-    const formattedText = replaceImagesAndDefinitions(node.text)
+    const formattedText = replaceImagesAndDefinitions(node.text, isFinalResult)
 
     const backBtn = document.getElementById("backBtn");
     if (historyStack.length === 0){
@@ -22,10 +27,11 @@ function displayNode(node, definitionsDictionary) {
     }
     historyStack.push(node);
     // console.log(historyStack);
-    
-    document.getElementById('content').innerHTML = `<h2>${formattedText}</h2>`;
-    
-    
+    if (isFinalResult) {
+        document.getElementById('content').innerHTML = `<h2>${formattedText}</p>`;
+    } else {
+        document.getElementById('content').innerHTML = `<h2>${formattedText}</h2>`;
+    }
     
     const optionsDiv = document.getElementById('options');
     optionsDiv.innerHTML = '';
