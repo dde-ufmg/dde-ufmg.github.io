@@ -29,6 +29,15 @@ function displayNode(node, definitionsDictionary) {
     
     const optionsDiv = document.getElementById('options');
     optionsDiv.innerHTML = '';
+
+    node.edges.sort((a,b) => {
+        if(a.text < b.text) {
+            return 1;
+        } else {
+            return -1;
+        }
+    });
+
     node.edges.forEach(edge => {
         const option = document.createElement('div');
         option.className = 'option';
