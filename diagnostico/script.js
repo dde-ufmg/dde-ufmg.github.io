@@ -59,6 +59,8 @@ function displayNode(node, definitionsDictionary) {
     // if (Object.keys(definitionsToRender).length > 0) {
     //     definitionsElement.innerHTML = `<h2>Algumas definições úteis</h2>`;
     // }
+    definitionsElement.innerHTML = ``;
+    showDefinitionsBtn.style.display = 'none'
     
     for (let key in definitionsToRender) {
         definitionsElement.appendChild(definitionsToRender[key]);
