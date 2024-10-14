@@ -5,7 +5,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 100vh;
     background-color: #f4f4f9;
@@ -24,12 +24,13 @@ body {
     padding: 15px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-bottom: 40px;
 }
 
 #navbar a {

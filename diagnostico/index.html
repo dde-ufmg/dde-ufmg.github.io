@@ -34,19 +34,5 @@
 
 
     <script src="script.js"></script>
-
-    <script>
-        function adjustPadding() {
-            const navbar = document.getElementById('navbar');
-            const navbarHeight = navbar.offsetHeight; // Pega a altura da navbar
-            document.body.style.paddingTop = `${navbarHeight}px`; // Aplica a altura ao padding-top
-        }
-    
-        // Ajusta o padding quando a página carrega
-        window.addEventListener('load', adjustPadding);
-    
-        // Ajusta o padding quando a janela é redimensionada (para lidar com diferentes tamanhos de tela)
-        window.addEventListener('resize', adjustPadding);
-    </script>
 </body>
 </html>
