@@ -14,6 +14,12 @@ function displayNode(node, definitionsDictionary) {
     // Substitui qualquer referência de imagem no texto
     const formattedText = replaceImagesAndDefinitions(node.text)
 
+    const backBtn = document.getElementById("backBtn");
+    if (historyStack.length === 0){
+        backBtn.style.display = 'none';
+    } else {
+        backBtn.style.display = 'flex';
+    }
     historyStack.push(node);
     // console.log(historyStack);
     
