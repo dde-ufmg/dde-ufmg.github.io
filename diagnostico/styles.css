@@ -18,6 +18,35 @@ body {
     margin-bottom: 20px;
 }
 
+/* Estilo da navbar */
+#navbar {
+    background-color: #ffbb00;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #ff6700;
+}
+
+#navbar a:hover {
+    background-color: #e55c00;
+}
+
 /* Título da página */
 h2 {
     font-size: 24px;
@@ -66,9 +95,6 @@ h2 {
 
 /* Estilo do botão "Voltar" com seta */
 #backBtn {
-    position: absolute;  /* Fixa o botão no topo da página */
-    top: 10px;
-    left: 10px;
     background-color: transparent;
     border: none;
     font-size: 24px;
