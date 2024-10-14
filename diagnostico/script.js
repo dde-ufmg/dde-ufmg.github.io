@@ -64,10 +64,16 @@ function displayNode(node, definitionsDictionary) {
         definitionsElement.appendChild(definitionsToRender[key]);
     }
 
+    const modalElement = document.getElementById("definitions");
+
     if (Object.keys(definitionsToRender).length > 0) {
+        const toggleVisibility = () => {definitionsElement.style.display = definitionsElement.style.display === 'flex' ? 'none' : 'flex'};
         showDefinitionsBtn.style.display = 'block'
-        showDefinitionsBtn.addEventListener("click",() => {definitionsElement.style.display = definitionsElement.style.display === 'flex' ? 'none' : 'flex'})
+
+        showDefinitionsBtn.addEventListener("click",toggleVisibility)
+        modalElement.addEventListener("click", toggleVisibility);
     }
+
 }
 
 function showTip(event, key) {

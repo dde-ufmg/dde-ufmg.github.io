@@ -7,12 +7,28 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <button id="backBtn">Voltar</button> <!-- Botão de voltar -->
+    <div id="app-container">
+        <button id="backBtn">Voltar</button> <!-- Botão de voltar -->
+        
+        <div id="content"></div>
+        <div id="options"></div>
+        <button id="showDefinitions" style="display: none;">?</button>
+        
+        <div id="definitions" class="modal" style="display: none;">
+            <!-- <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-description"></p>
+            </div> -->
+        </div>
+        
+        <footer>
+            <img src="../assets/logo.jpeg" alt="Logo Odontopediatria UFMG" id="footer-logo">
+            <p>Desensenvolvido pelo GEPeDE - UFMG</p>
+        </footer>
+                
+    </div>
 
-    <div id="content"></div>
-    <div id="options"></div>
-    <button id="showDefinitions" style="display: none;">?</button>
-    <div id="definitions" style="display: none;"></div>
 
     <script src="script.js"></script>
 

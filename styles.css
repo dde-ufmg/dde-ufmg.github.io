@@ -81,16 +81,20 @@ div.welcome-message {
     background-color: #ffc928;
     border: none;
     border-radius: 25px;
-    padding: 10px 20px;
     margin: 10px 0;
     font-size: 1.2em;
     font-weight: 600;
     cursor: pointer;
     width: 80%;
     a {
+        padding: 10px 20px;
+        height: 100%;
+        width: 100%;
         color: #977759;
         text-decoration: none;
         text-shadow: 1px 1px #eeeeee;
+        box-sizing: border-box;
+        display: inline-block;
     }
 }
     
