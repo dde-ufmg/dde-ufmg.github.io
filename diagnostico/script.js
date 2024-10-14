@@ -47,18 +47,12 @@ function displayNode(node, definitionsDictionary) {
             continue;
         }
 
-        tip.addEventListener("click", () => {alert(definitionKey)})
-        tip.style.fontWeight = "700"
-
         const definition = document.createElement('div');
         definition.className = 'definition';
         definition.innerHTML = `<h3>${definitionKey}</h3><br><p>${definitionText}</p>`;
         definitionsToRender[definitionKey] = definition;
     }
 
-    // if (Object.keys(definitionsToRender).length > 0) {
-    //     definitionsElement.innerHTML = `<h2>Algumas definições úteis</h2>`;
-    // }
     definitionsElement.innerHTML = ``;
     showDefinitionsBtn.style.display = 'none'
     
