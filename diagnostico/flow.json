@@ -41,13 +41,13 @@
             "edgeType": "ELBOWED",
             "directional": "UNI",
             "to": {
-              "text": "Algum familiar possui dentes com uma condição semelhante?",
-              "id": "10:474",
+              "text": "No exame de radiografia panorâmica, os dentes apresentam imagem bem delimitada do esmalte dentário?",
+              "id": "10:1036",
               "type": "NODE",
               "edges": [
                 {
-                  "text": "Não",
-                  "id": "10:1037",
+                  "text": "Sim",
+                  "id": "10:1327",
                   "from": {
                     "$ref": "#/edges/0/to/edges/0/to"
                   },
@@ -62,41 +62,13 @@
                   "edgeType": "ELBOWED",
                   "directional": "UNI",
                   "to": {
-                    "text": "No exame de radiografia panorâmica, os dentes apresentam imagem bem delimitada do esmalte dentário?",
-                    "id": "10:1036",
+                    "text": "Algum familiar possui dentes com uma condição semelhante?",
+                    "id": "10:474",
                     "type": "NODE",
                     "edges": [
                       {
                         "text": "Não",
-                        "id": "10:1293",
-                        "from": {
-                          "$ref": "#/edges/0/to/edges/0/to/edges/0/to"
-                        },
-                        "type": "EDGE",
-                        "color": {
-                          "r": 0.7019608020782471,
-                          "g": 0.7019608020782471,
-                          "b": 0.7019608020782471
-                        },
-                        "fromSide": "TOP",
-                        "toSide": "BOTTOM",
-                        "edgeType": "ELBOWED",
-                        "directional": "UNI",
-                        "to": {
-                          "text": "Você provavelmente está diante de uma AMELOGÊNESE IMPERFEITA $amelogenese A amelogênese imperfeita é considerada um defeito hereditário do esmalte dentário. São relatados três tipos dessa condição, dependendo da etapa de formação do esmalte em que ocorre, sendo: tipo hipoplásica, em que há formação deficiente da matriz; tipo hipomineralizada, em que há mineralização deficiente da matriz formada e por fim tipo hipomaturada, em que os cristais de esmalte permanecem imaturos. Clinicamente, as coroas podem apresentar ausência total de esmalte, possuir variação de textura, consistência e coloração. Radiograficamente, os dentes com amelogênese imperfeita não apresentam imagem bem delimitada entre esmalte e dentina. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
-                          "id": "10:1188",
-                          "type": "NODE",
-                          "edges": [],
-                          "color": {
-                            "r": 0.8941176533699036,
-                            "g": 0.800000011920929,
-                            "b": 1
-                          }
-                        }
-                      },
-                      {
-                        "text": "Sim",
-                        "id": "10:1327",
+                        "id": "36:371",
                         "from": {
                           "$ref": "#/edges/0/to/edges/0/to/edges/0/to"
                         },
@@ -119,7 +91,7 @@
                               "text": "Sim",
                               "id": "10:1389",
                               "from": {
-                                "$ref": "#/edges/0/to/edges/0/to/edges/0/to/edges/1/to"
+                                "$ref": "#/edges/0/to/edges/0/to/edges/0/to/edges/0/to"
                               },
                               "type": "EDGE",
                               "color": {
@@ -147,7 +119,7 @@
                               "text": "Não",
                               "id": "10:1444",
                               "from": {
-                                "$ref": "#/edges/0/to/edges/0/to/edges/0/to/edges/1/to"
+                                "$ref": "#/edges/0/to/edges/0/to/edges/0/to/edges/0/to"
                               },
                               "type": "EDGE",
                               "color": {
@@ -168,7 +140,7 @@
                                     "text": "Não",
                                     "id": "10:1698",
                                     "from": {
-                                      "$ref": "#/edges/0/to/edges/0/to/edges/0/to/edges/1/to/edges/1/to"
+                                      "$ref": "#/edges/0/to/edges/0/to/edges/0/to/edges/0/to/edges/1/to"
                                     },
                                     "type": "EDGE",
                                     "color": {
@@ -189,7 +161,7 @@
                                           "text": "Não",
                                           "id": "10:1858",
                                           "from": {
-                                            "$ref": "#/edges/0/to/edges/0/to/edges/0/to/edges/1/to/edges/1/to/edges/0/to"
+                                            "$ref": "#/edges/0/to/edges/0/to/edges/0/to/edges/0/to/edges/1/to/edges/0/to"
                                           },
                                           "type": "EDGE",
                                           "color": {
@@ -217,7 +189,7 @@
                                           "text": "Sim",
                                           "id": "10:1804",
                                           "from": {
-                                            "$ref": "#/edges/0/to/edges/0/to/edges/0/to/edges/1/to/edges/1/to/edges/0/to"
+                                            "$ref": "#/edges/0/to/edges/0/to/edges/0/to/edges/0/to/edges/1/to/edges/0/to"
                                           },
                                           "type": "EDGE",
                                           "color": {
@@ -253,7 +225,7 @@
                                     "text": "Sim",
                                     "id": "10:1619",
                                     "from": {
-                                      "$ref": "#/edges/0/to/edges/0/to/edges/0/to/edges/1/to/edges/1/to"
+                                      "$ref": "#/edges/0/to/edges/0/to/edges/0/to/edges/0/to/edges/1/to"
                                     },
                                     "type": "EDGE",
                                     "color": {
@@ -292,61 +264,12 @@
                             "b": 1
                           }
                         }
-                      }
-                    ],
-                    "color": {
-                      "r": 0.8941176533699036,
-                      "g": 0.800000011920929,
-                      "b": 1
-                    }
-                  }
-                },
-                {
-                  "text": "Sim",
-                  "id": "10:1070",
-                  "from": {
-                    "$ref": "#/edges/0/to/edges/0/to"
-                  },
-                  "type": "EDGE",
-                  "color": {
-                    "r": 0.7019608020782471,
-                    "g": 0.7019608020782471,
-                    "b": 0.7019608020782471
-                  },
-                  "fromSide": "TOP",
-                  "toSide": "BOTTOM",
-                  "edgeType": "ELBOWED",
-                  "directional": "UNI",
-                  "to": {
-                    "text": "No exame de radiografia panorâmica, os dentes apresentam imagem bem delimitada do esmalte dentário?",
-                    "id": "10:1069",
-                    "type": "NODE",
-                    "edges": [
-                      {
-                        "text": "Não",
-                        "id": "10:1189",
-                        "from": {
-                          "$ref": "#/edges/0/to/edges/0/to/edges/1/to"
-                        },
-                        "type": "EDGE",
-                        "color": {
-                          "r": 0.7019608020782471,
-                          "g": 0.7019608020782471,
-                          "b": 0.7019608020782471
-                        },
-                        "fromSide": "RIGHT",
-                        "toSide": "LEFT",
-                        "edgeType": "ELBOWED",
-                        "directional": "UNI",
-                        "to": {
-                          "$ref": "#/edges/0/to/edges/0/to/edges/0/to/edges/0/to"
-                        }
                       },
                       {
                         "text": "Sim",
-                        "id": "10:1137",
+                        "id": "36:337",
                         "from": {
-                          "$ref": "#/edges/0/to/edges/0/to/edges/1/to"
+                          "$ref": "#/edges/0/to/edges/0/to/edges/0/to"
                         },
                         "type": "EDGE",
                         "color": {
@@ -371,6 +294,34 @@
                         }
                       }
                     ],
+                    "color": {
+                      "r": 0.8941176533699036,
+                      "g": 0.800000011920929,
+                      "b": 1
+                    }
+                  }
+                },
+                {
+                  "text": "Não",
+                  "id": "10:1293",
+                  "from": {
+                    "$ref": "#/edges/0/to/edges/0/to"
+                  },
+                  "type": "EDGE",
+                  "color": {
+                    "r": 0.7019608020782471,
+                    "g": 0.7019608020782471,
+                    "b": 0.7019608020782471
+                  },
+                  "fromSide": "TOP",
+                  "toSide": "BOTTOM",
+                  "edgeType": "ELBOWED",
+                  "directional": "UNI",
+                  "to": {
+                    "text": "Você provavelmente está diante de uma AMELOGÊNESE IMPERFEITA $amelogenese A amelogênese imperfeita é considerada um defeito hereditário do esmalte dentário. São relatados três tipos dessa condição, dependendo da etapa de formação do esmalte em que ocorre, sendo: tipo hipoplásica, em que há formação deficiente da matriz; tipo hipomineralizada, em que há mineralização deficiente da matriz formada e por fim tipo hipomaturada, em que os cristais de esmalte permanecem imaturos. Clinicamente, as coroas podem apresentar ausência total de esmalte, possuir variação de textura, consistência e coloração. Radiograficamente, os dentes com amelogênese imperfeita não apresentam imagem bem delimitada entre esmalte e dentina. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                    "id": "10:1188",
+                    "type": "NODE",
+                    "edges": [],
                     "color": {
                       "r": 0.8941176533699036,
                       "g": 0.800000011920929,
@@ -462,7 +413,7 @@
                                 "b": 0.7019608020782471
                               },
                               "fromSide": "BOTTOM",
-                              "toSide": "RIGHT",
+                              "toSide": "TOP",
                               "edgeType": "ELBOWED",
                               "directional": "UNI",
                               "to": {
@@ -685,6 +636,54 @@
                     "type": "NODE",
                     "edges": [
                       {
+                        "text": "Connector line",
+                        "id": "5:760",
+                        "from": {
+                          "$ref": "#/edges/1/to/edges/0/to/edges/1/to"
+                        },
+                        "type": "EDGE",
+                        "color": {
+                          "r": 0.7019608020782471,
+                          "g": 0.7019608020782471,
+                          "b": 0.7019608020782471
+                        },
+                        "fromSide": "LEFT",
+                        "toSide": "LEFT",
+                        "edgeType": "ELBOWED",
+                        "directional": "UNI",
+                        "to": {
+                          "$ref": "#/edges/1/to/edges/0/to/edges/1/to"
+                        }
+                      },
+                      {
+                        "text": "Sim",
+                        "id": "5:775",
+                        "from": {
+                          "$ref": "#/edges/1/to/edges/0/to/edges/1/to"
+                        },
+                        "type": "EDGE",
+                        "color": {
+                          "r": 0.7019608020782471,
+                          "g": 0.7019608020782471,
+                          "b": 0.7019608020782471
+                        },
+                        "fromSide": "RIGHT",
+                        "toSide": "LEFT",
+                        "edgeType": "ELBOWED",
+                        "directional": "UNI",
+                        "to": {
+                          "text": "Você provavelmente está diante de uma OPACIDADE DEMARCADA $opacidade_demarcada A opacidade demarcada é uma hipomineralização do esmalte dentário, que ocorre devido a distúrbios na fase de maturação ou mineralização da matriz e gera alterações na translucidez ou opacidade do esmalte, mas sem perda estrutural. Clinicamente, apresenta translucidez de grau variável no esmalte, com limites nítidos e coloração esbranquiçada e/ou amarelada! Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                          "id": "5:774",
+                          "type": "NODE",
+                          "edges": [],
+                          "color": {
+                            "r": 0.8941176533699036,
+                            "g": 0.800000011920929,
+                            "b": 1
+                          }
+                        }
+                      },
+                      {
                         "text": "Não",
                         "id": "6:841",
                         "from": {
@@ -709,7 +708,7 @@
                               "text": "Está presente em Segundos Molares, Pré-Molares ou Caninos Permanentes",
                               "id": "8:873",
                               "from": {
-                                "$ref": "#/edges/1/to/edges/0/to/edges/1/to/edges/0/to"
+                                "$ref": "#/edges/1/to/edges/0/to/edges/1/to/edges/2/to"
                               },
                               "type": "EDGE",
                               "color": {
@@ -737,7 +736,7 @@
                               "text": "Essa alteração está presente em algum dente decíduo, exceto no segundo molar.",
                               "id": "8:887",
                               "from": {
-                                "$ref": "#/edges/1/to/edges/0/to/edges/1/to/edges/0/to"
+                                "$ref": "#/edges/1/to/edges/0/to/edges/1/to/edges/2/to"
                               },
                               "type": "EDGE",
                               "color": {
@@ -762,34 +761,6 @@
                               }
                             }
                           ],
-                          "color": {
-                            "r": 0.8941176533699036,
-                            "g": 0.800000011920929,
-                            "b": 1
-                          }
-                        }
-                      },
-                      {
-                        "text": "Sim",
-                        "id": "5:775",
-                        "from": {
-                          "$ref": "#/edges/1/to/edges/0/to/edges/1/to"
-                        },
-                        "type": "EDGE",
-                        "color": {
-                          "r": 0.7019608020782471,
-                          "g": 0.7019608020782471,
-                          "b": 0.7019608020782471
-                        },
-                        "fromSide": "RIGHT",
-                        "toSide": "RIGHT",
-                        "edgeType": "ELBOWED",
-                        "directional": "UNI",
-                        "to": {
-                          "text": "Você provavelmente está diante de uma OPACIDADE DEMARCADA $opacidade_demarcada A opacidade demarcada é uma hipomineralização do esmalte dentário, que ocorre devido a distúrbios na fase de maturação ou mineralização da matriz e gera alterações na translucidez ou opacidade do esmalte, mas sem perda estrutural. Clinicamente, apresenta translucidez de grau variável no esmalte, com limites nítidos e coloração esbranquiçada e/ou amarelada! Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
-                          "id": "5:774",
-                          "type": "NODE",
-                          "edges": [],
                           "color": {
                             "r": 0.8941176533699036,
                             "g": 0.800000011920929,
