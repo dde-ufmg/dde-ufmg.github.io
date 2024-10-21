@@ -104,7 +104,7 @@
                               "edgeType": "ELBOWED",
                               "directional": "UNI",
                               "to": {
-                                "text": "Você provavelmente está diante de uma lesão de HOPTS $hopts As hipomineralizações em dentes permanentes que não sejam em dentes índices, como caninos, pré-molares e segundos molares, são chamadas de HOPT (hypomineralisation of other permanent teeth), assim como na HMI é uma condição caracterizada por opacidades demarcadas de cor branca, amarela ou amarronzadas e o esmalte afetado por essa condição geralmente é considerado frágil devido sua maciez e porosidade, sendo mais suscetível a fraturas devido aos esforços mastigatórios. Além disso, a presença de HMI ou HMD é considerado um fator preditor para HOPT. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                "text": "Você provavelmente está diante de uma lesão de HOPTS $hopts As hipomineralizações em dentes permanentes que não sejam em dentes índices, como caninos, pré-molares e segundos molares, são chamadas de HOPT (hypomineralisation of other permanent teeth), assim como na HMI é uma condição caracterizada por opacidades demarcadas de cor branca, amarela ou amarronzadas e o esmalte afetado por essa condição geralmente é considerado frágil devido sua maciez e porosidade, sendo mais suscetível a fraturas devido aos esforços mastigatórios. Além disso, a presença de HMI ou HMD é considerado um fator preditor para HOPT. Para mais informações acesse o artigo abaixo ou entre em contato com o nosso grupo. https://onlinelibrary.wiley.com/doi/epdf/10.1111/ipd.12735",
                                 "id": "10:634",
                                 "type": "NODE",
                                 "edges": [],
@@ -132,7 +132,7 @@
                               "edgeType": "ELBOWED",
                               "directional": "UNI",
                               "to": {
-                                "text": "Você provavelmente está a frente de uma lesão de HIPOMINEIRALIZAÇÃO EM DENTE DECÍDUO: $hmd As hipomineralizações isoladas em dentes decíduos possuem causa multifatorial, podendo incluir fatores pré e pós-natais, além de fatores ambientais e outros, não tendo uma causa definida. Éuma condição caracterizada por opacidades demarcadas de cor branca, amarela ou amarronzadas e o esmalte afetado por essa condição geralmente é considerado frágil devido sua maciez e porosidade, sendo mais suscetível a fraturas devido aos esforços mastigatórios. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                "text": "Você provavelmente está a frente de uma lesão de HIPOMINEIRALIZAÇÃO EM DENTE DECÍDUO: $hmd As hipomineralizações isoladas em dentes decíduos possuem causa multifatorial, podendo incluir fatores pré e pós-natais, além de fatores ambientais e outros, não tendo uma causa definida. Éuma condição caracterizada por opacidades demarcadas de cor branca, amarela ou amarronzadas e o esmalte afetado por essa condição geralmente é considerado frágil devido sua maciez e porosidade, sendo mais suscetível a fraturas devido aos esforços mastigatórios. Para mais informações acesse o artigo abaixo ou entre em contato com o nosso grupo. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8224286/",
                                 "id": "10:681",
                                 "type": "NODE",
                                 "edges": [],
@@ -168,7 +168,7 @@
                         "edgeType": "ELBOWED",
                         "directional": "UNI",
                         "to": {
-                          "text": "Você provavelmente está diante de uma lesão de HMI/HMD $hmd_hmi A hipomineralização molar-incisivo (HMI) é um defeito de desenvolvimento do esmalte que afeta um ou até os quatro primeiros molares permanentes, associados ou não à alterações nos incisivos e segundos molares, sua versão em dentes decíduos é chamada de hipomineralização em molares decíduos (HMD), em que o dente índice é o segundo molar decíduo. É caracterizada por opacidades demarcadas de cor branca, amarela ou amarronzadas, principalmente nas superfícies oclusais e vestibulares. O esmalte afetado por essa condição geralmente é considerado frágil devido sua maciez e porosidade, sendo mais suscetível a fraturas devido aos esforços mastigatórios. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                          "text": "Você provavelmente está diante de uma lesão de HMI/HMD $hmd_hmi A hipomineralização molar-incisivo (HMI) é um defeito de desenvolvimento do esmalte que afeta um ou até os quatro primeiros molares permanentes, associados ou não à alterações nos incisivos e segundos molares, sua versão em dentes decíduos é chamada de hipomineralização em molares decíduos (HMD), em que o dente índice é o segundo molar decíduo. É caracterizada por opacidades demarcadas de cor branca, amarela ou amarronzadas, principalmente nas superfícies oclusais e vestibulares. O esmalte afetado por essa condição geralmente é considerado frágil devido sua maciez e porosidade, sendo mais suscetível a fraturas devido aos esforços mastigatórios. Para mais informações acesse o artigo abaixo ou entre em contato com o nosso grupo. https://www.bu.ufmg.br/imagem/00002b/00002be6.pdf",
                           "id": "10:916",
                           "type": "NODE",
                           "edges": [],
@@ -204,7 +204,7 @@
                   "edgeType": "ELBOWED",
                   "directional": "UNI",
                   "to": {
-                    "text": "HIPOPLASIA $hipoplasia As alterações hipoplásicas são de caráter quantitativo e ocorrem quando há uma formação incompleta ou defeituosa da matriz orgânica do esmalte dentário. Clinicamente pode se apresentar como regiões de fóssulas, fissuras ou grandes áreas de perda de esmalte com coloração variando entre áreas sem alteração de cor à esbranquiçadas, amareladas e/ou acastanhadas. É importante ressaltar que em alguns casos, lesões de cariosas podem estar associadas à hipoplasia. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                    "text": "HIPOPLASIA $hipoplasia As alterações hipoplásicas são de caráter quantitativo e ocorrem quando há uma formação incompleta ou defeituosa da matriz orgânica do esmalte dentário. Clinicamente pode se apresentar como regiões de fóssulas, fissuras ou grandes áreas de perda de esmalte com coloração variando entre áreas sem alteração de cor à esbranquiçadas, amareladas e/ou acastanhadas. É importante ressaltar que em alguns casos, lesões de cariosas podem estar associadas à hipoplasia. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo. https://www.archhealthinvestigation.com.br/ArcHI/article/view/5446/7412 https://revistas.uepg.br/index.php/biologica/article/view/379/384",
                     "id": "10:809",
                     "type": "NODE",
                     "edges": [],
@@ -261,7 +261,7 @@
                   "edgeType": "ELBOWED",
                   "directional": "UNI",
                   "to": {
-                    "text": "Você provavelmente está diante de uma AMELOGÊNESE IMPERFEITA $amelogenese A amelogênese imperfeita é considerada um defeito hereditário do esmalte dentário. São relatados três tipos dessa condição, dependendo da etapa de formação do esmalte em que ocorre, sendo: tipo hipoplásica, em que há formação deficiente da matriz; tipo hipomineralizada, em que há mineralização deficiente da matriz formada e por fim tipo hipomaturada, em que os cristais de esmalte permanecem imaturos. Clinicamente, as coroas podem apresentar ausência total de esmalte, possuir variação de textura, consistência e coloração. Radiograficamente, os dentes com amelogênese imperfeita não apresentam imagem bem delimitada entre esmalte e dentina. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                    "text": "Você provavelmente está diante de uma AMELOGÊNESE IMPERFEITA $amelogenese A amelogênese imperfeita é considerada um defeito hereditário do esmalte dentário. São relatados três tipos dessa condição, dependendo da etapa de formação do esmalte em que ocorre, sendo: tipo hipoplásica, em que há formação deficiente da matriz; tipo hipomineralizada, em que há mineralização deficiente da matriz formada e por fim tipo hipomaturada, em que os cristais de esmalte permanecem imaturos. Clinicamente, as coroas podem apresentar ausência total de esmalte, possuir variação de textura, consistência e coloração. Radiograficamente, os dentes com amelogênese imperfeita não apresentam imagem bem delimitada entre esmalte e dentina. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo. https://pmc.ncbi.nlm.nih.gov/articles/PMC7871387/ https://revistas.uepg.br/index.php/biologica/article/view/379/384",
                     "id": "10:1188",
                     "type": "NODE",
                     "edges": [],
@@ -310,7 +310,7 @@
                         "edgeType": "ELBOWED",
                         "directional": "UNI",
                         "to": {
-                          "text": "Você provavelmente está diante de uma FLUOROSE ENDÊMICA/ SEVERA $fluorose_severa $fluorose_severa2 A fluorose é uma hipomineralização difusa do esmalte dentário. Ela ocorre devido a exposição do germe dentário a altas concentrações do íon flúor durante sua formação! Sua apresentação clínica varia de acordo com sua severidade e sempre em dentes homólogos, podendo se apresentar como linhas brancas, manchas amarronzadas ou até mesmo depressões porosas! Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                          "text": "Você provavelmente está diante de uma FLUOROSE ENDÊMICA/ SEVERA $fluorose_severa $fluorose_severa2 A fluorose é uma hipomineralização difusa do esmalte dentário. Ela ocorre devido a exposição do germe dentário a altas concentrações do íon flúor durante sua formação! Sua apresentação clínica varia de acordo com sua severidade e sempre em dentes homólogos, podendo se apresentar como linhas brancas, manchas amarronzadas ou até mesmo depressões porosas! Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo. https://www.uniara.com.br/legado/revistauniara/pdf/25/livia_artigo10.pd",
                           "id": "10:1136",
                           "type": "NODE",
                           "edges": [],
@@ -359,7 +359,7 @@
                               "edgeType": "ELBOWED",
                               "directional": "UNI",
                               "to": {
-                                "text": "Você provavelmente está de frente de um caso de HIPERBILIRRUBINEMIA $hiperbilirrubinemia $hiperbilirrubinemia2 A hiperbilirrubinemia é uma condição em que a bilirrubina está presente em concentrações elevadas no sangue, algumas de suas possíveis causas são atresia biliar, icterícia grave, insuficiência hepática aguda, hepatite, infecção do trato urinário, fibrose cística, desordem respiratória, desordem hepática, nascimento prematuro e hipoplasia biliar. Clinicamente, todos os dentes apresentam coloração esverdeada, podem apresentar hipoplasia do esmalte dentário, hiperplasia gengival e atraso no desenvolvimento dentário. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                "text": "Você provavelmente está de frente de um caso de HIPERBILIRRUBINEMIA $hiperbilirrubinemia $hiperbilirrubinemia2 A hiperbilirrubinemia é uma condição em que a bilirrubina está presente em concentrações elevadas no sangue, algumas de suas possíveis causas são atresia biliar, icterícia grave, insuficiência hepática aguda, hepatite, infecção do trato urinário, fibrose cística, desordem respiratória, desordem hepática, nascimento prematuro e hipoplasia biliar. Clinicamente, todos os dentes apresentam coloração esverdeada, podem apresentar hipoplasia do esmalte dentário, hiperplasia gengival e atraso no desenvolvimento dentário. Para mais informações acesse o artigo abaixo ou entre em contato com o nosso grupo. https://www.revistaodontopediatria.org/index.php/alop/article/view/304/287",
                                 "id": "10:1388",
                                 "type": "NODE",
                                 "edges": [],
@@ -429,7 +429,7 @@
                                           "edgeType": "ELBOWED",
                                           "directional": "UNI",
                                           "to": {
-                                            "text": "Você provavelmente está diante de um caso de CÁRIE DA PRIMEIRA INFÂNCIA em todos os dentes $cpi $cpi2 $cpi3 A cárie da primeira infância (CPI), é diagnosticada em crianças pré-escolares, com menos de 6 anos de idade, que possuem lesões de cárie cavitadas ou não e/ou restaurações devido à cárie, em uma ou mais superfícies dentárias. É uma doença multifatorial e de progressão rápida. Clinicamente, o tecido dental pode se apresentar como manchas brancas (cárie ativa) e/ou tecido amolecido, além da presença de restaurações. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                            "text": "Você provavelmente está diante de um caso de CÁRIE DA PRIMEIRA INFÂNCIA em todos os dentes $cpi $cpi2 $cpi3 A cárie da primeira infância (CPI), é diagnosticada em crianças pré-escolares, com menos de 6 anos de idade, que possuem lesões de cárie cavitadas ou não e/ou restaurações devido à cárie, em uma ou mais superfícies dentárias. É uma doença multifatorial e de progressão rápida. Clinicamente, o tecido dental pode se apresentar como manchas brancas (cárie ativa) e/ou tecido amolecido, além da presença de restaurações. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo. https://site.crosp.org.br/uploads/paginas/2fa7c105450acea7f329bdea436be952.pdf https://www.aapd.org/globalassets/media/policies_guidelines/p_eccconsequences.pdf",
                                             "id": "10:1857",
                                             "type": "NODE",
                                             "edges": [],
@@ -457,7 +457,7 @@
                                           "edgeType": "ELBOWED",
                                           "directional": "UNI",
                                           "to": {
-                                            "text": "Você provavelmente está diante de uma FLUOROSE ENDÊMICA/ SEVERA $fluorose_severa $fluorose_severa2 A fluorose é uma hipomineralização difusa do esmalte dentário. Ela ocorre devido a exposição do germe dentário a altas concentrações do íon flúor durante sua formação! Sua apresentação clínica varia de acordo com sua severidade e sempre em dentes homólogos, podendo se apresentar como linhas brancas, manchas amarronzadas ou até mesmo depressões porosas! Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                            "text": "Você provavelmente está diante de uma FLUOROSE ENDÊMICA/ SEVERA $fluorose_severa $fluorose_severa2 A fluorose é uma hipomineralização difusa do esmalte dentário. Ela ocorre devido a exposição do germe dentário a altas concentrações do íon flúor durante sua formação! Sua apresentação clínica varia de acordo com sua severidade e sempre em dentes homólogos, podendo se apresentar como linhas brancas, manchas amarronzadas ou até mesmo depressões porosas! Para mais informações acesse o artigo abaixo ou entre em contato com o nosso grupo. https://www.uniara.com.br/legado/revistauniara/pdf/25/livia_artigo10.pd",
                                             "id": "24:253",
                                             "type": "NODE",
                                             "edges": [],
@@ -493,7 +493,7 @@
                                     "edgeType": "ELBOWED",
                                     "directional": "UNI",
                                     "to": {
-                                      "text": "Você provavelmente está diante de uma FLUOROSE ENDÊMICA/ SEVERA $fluorose_severa $fluorose_severa2 A fluorose é uma hipomineralização difusa do esmalte dentário. Ela ocorre devido a exposição do germe dentário a altas concentrações do íon flúor durante sua formação! Sua apresentação clínica varia de acordo com sua severidade e sempre em dentes homólogos, podendo se apresentar como linhas brancas, manchas amarronzadas ou até mesmo depressões porosas! Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                      "text": "Você provavelmente está diante de uma FLUOROSE ENDÊMICA/ SEVERA $fluorose_severa $fluorose_severa2 A fluorose é uma hipomineralização difusa do esmalte dentário. Ela ocorre devido a exposição do germe dentário a altas concentrações do íon flúor durante sua formação! Sua apresentação clínica varia de acordo com sua severidade e sempre em dentes homólogos, podendo se apresentar como linhas brancas, manchas amarronzadas ou até mesmo depressões porosas! Para mais informações acesse o artigo abaixo ou entre em contato com o nosso grupo. https://www.uniara.com.br/legado/revistauniara/pdf/25/livia_artigo10.pd",
                                       "id": "24:244",
                                       "type": "NODE",
                                       "edges": [],
@@ -603,7 +603,7 @@
                   "edgeType": "ELBOWED",
                   "directional": "UNI",
                   "to": {
-                    "text": "Você provavelmente está diante de uma lesão de HMI/HMD. $hmd_hmi A hipomineralização molar-incisivo (HMI) é um defeito de desenvolvimento do esmalte que afeta um ou até os quatro primeiros molares permanentes, associados ou não à alterações nos incisivos e segundos molares, sua versão em dentes decíduos é chamada de hipomineralização em molares decíduos (HMD), em que o dente índice é o segundo molar decíduo (nesse caso, HSMD). É caracterizada por opacidades demarcadas de cor branca, amarela ou amarronzadas, principalmente nas superfícies oclusais e vestibulares. O esmalte afetado por essa condição geralmente é considerado frágil devido sua maciez e porosidade, sendo mais suscetível a fraturas devido aos esforços mastigatórios. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                    "text": "Você provavelmente está diante de uma lesão de HMI/HMD. $hmd_hmi A hipomineralização molar-incisivo (HMI) é um defeito de desenvolvimento do esmalte que afeta um ou até os quatro primeiros molares permanentes, associados ou não à alterações nos incisivos e segundos molares, sua versão em dentes decíduos é chamada de hipomineralização em molares decíduos (HMD), em que o dente índice é o segundo molar decíduo (nesse caso, HSMD). É caracterizada por opacidades demarcadas de cor branca, amarela ou amarronzadas, principalmente nas superfícies oclusais e vestibulares. O esmalte afetado por essa condição geralmente é considerado frágil devido sua maciez e porosidade, sendo mais suscetível a fraturas devido aos esforços mastigatórios. Para mais informações acesse o artigo abaixo ou entre em contato com o nosso grupo. https://www.bu.ufmg.br/imagem/00002b/00002be6.pdf https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8224286/",
                     "id": "5:670",
                     "type": "NODE",
                     "edges": [],
@@ -672,7 +672,7 @@
                         "edgeType": "ELBOWED",
                         "directional": "UNI",
                         "to": {
-                          "text": "Você provavelmente está diante de uma OPACIDADE DEMARCADA $opacidade_demarcada A opacidade demarcada é uma hipomineralização do esmalte dentário, que ocorre devido a distúrbios na fase de maturação ou mineralização da matriz e gera alterações na translucidez ou opacidade do esmalte, mas sem perda estrutural. Clinicamente, apresenta translucidez de grau variável no esmalte, com limites nítidos e coloração esbranquiçada e/ou amarelada! Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                          "text": "Você provavelmente está diante de uma OPACIDADE DEMARCADA $opacidade_demarcada A opacidade demarcada é uma hipomineralização do esmalte dentário, que ocorre devido a distúrbios na fase de maturação ou mineralização da matriz e gera alterações na translucidez ou opacidade do esmalte, mas sem perda estrutural. Clinicamente, apresenta translucidez de grau variável no esmalte, com limites nítidos e coloração esbranquiçada e/ou amarelada! Para mais informações acesse o artigo abaixo ou entre em contato com o nosso grupo. https://pmc.ncbi.nlm.nih.gov/articles/PMC5976686/",
                           "id": "5:774",
                           "type": "NODE",
                           "edges": [],
@@ -721,7 +721,7 @@
                               "edgeType": "ELBOWED",
                               "directional": "UNI",
                               "to": {
-                                "text": "Você provavelmente está a frente de uma lesão de HOPTS $hopts As hipomineralizações em dentes permanentes que não sejam em dentes índices, como caninos, pré-molares e segundos molares, são chamadas de HOPT (hypomineralisation of other permanent teeth), assim como na HMI é uma condição caracterizada por opacidades demarcadas de cor branca, amarela ou amarronzadas e o esmalte afetado por essa condição geralmente é considerado frágil devido sua maciez e porosidade, sendo mais suscetível a fraturas devido aos esforços mastigatórios. Além disso, a presença de HMI ou HMD é considerado um fator preditor para HOPT. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                "text": "Você provavelmente está a frente de uma lesão de HOPTS $hopts As hipomineralizações em dentes permanentes que não sejam em dentes índices, como caninos, pré-molares e segundos molares, são chamadas de HOPT (hypomineralisation of other permanent teeth), assim como na HMI é uma condição caracterizada por opacidades demarcadas de cor branca, amarela ou amarronzadas e o esmalte afetado por essa condição geralmente é considerado frágil devido sua maciez e porosidade, sendo mais suscetível a fraturas devido aos esforços mastigatórios. Além disso, a presença de HMI ou HMD é considerado um fator preditor para HOPT. Para mais informações acesse o artigo abaixo ou entre em contato com o nosso grupo. https://onlinelibrary.wiley.com/doi/epdf/10.1111/ipd.12735",
                                 "id": "8:872",
                                 "type": "NODE",
                                 "edges": [],
@@ -749,7 +749,7 @@
                               "edgeType": "ELBOWED",
                               "directional": "UNI",
                               "to": {
-                                "text": "Você provavelmente está a frente de uma lesão de HIPOMINERALIZAÇÃO EM DENTE DECÍDUO $hmd $hmd2 As hipomineralizações isoladas em dentes decíduos possuem causa multifatorial, podendo incluir fatores pré e pós-natais, além de fatores ambientais e outros, não tendo uma causa definida. É uma condição caracterizada por opacidades demarcadas de cor branca, amarela ou amarronzadas e o esmalte afetado por essa condição geralmente é considerado frágil devido sua maciez e porosidade, sendo mais suscetível a fraturas devido aos esforços mastigatórios. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                "text": "Você provavelmente está a frente de uma lesão de HIPOMINERALIZAÇÃO EM DENTE DECÍDUO $hmd $hmd2 As hipomineralizações isoladas em dentes decíduos possuem causa multifatorial, podendo incluir fatores pré e pós-natais, além de fatores ambientais e outros, não tendo uma causa definida. É uma condição caracterizada por opacidades demarcadas de cor branca, amarela ou amarronzadas e o esmalte afetado por essa condição geralmente é considerado frágil devido sua maciez e porosidade, sendo mais suscetível a fraturas devido aos esforços mastigatórios. Para mais informações acesse o artigo abaixo ou entre em contato com o nosso grupo. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8224286/",
                                 "id": "8:886",
                                 "type": "NODE",
                                 "edges": [],
@@ -822,7 +822,7 @@
                   "edgeType": "ELBOWED",
                   "directional": "UNI",
                   "to": {
-                    "text": "Você provavelmente está a frente de uma OPACIDADE DIFUSA $opacidade_difusa As opacidades difusas são uma hipomineralização do esmalte dentário, que ocorre devido a distúrbios na fase de maturação ou mineralização da matriz e gera alterações na translucidez ou opacidade do esmalte, mas sem perda estrutural. Clinicamente, apresenta translucidez de grau variável no esmalte, com limites mal definidos, não sendo possível diferenciar exatamente qual é o esmalte normal e qual é o alterado. Sua coloração pode variar entre esbranquiçada e/ou amarelada. Podem ser ou não do tipo fluoróticas. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                    "text": "Você provavelmente está a frente de uma OPACIDADE DIFUSA $opacidade_difusa As opacidades difusas são uma hipomineralização do esmalte dentário, que ocorre devido a distúrbios na fase de maturação ou mineralização da matriz e gera alterações na translucidez ou opacidade do esmalte, mas sem perda estrutural. Clinicamente, apresenta translucidez de grau variável no esmalte, com limites mal definidos, não sendo possível diferenciar exatamente qual é o esmalte normal e qual é o alterado. Sua coloração pode variar entre esbranquiçada e/ou amarelada. Podem ser ou não do tipo fluoróticas. Para mais informações acesse o artigo abaixo ou entre em contato com o nosso grupo. https://meridian.allenpress.com/operative-dentistry/article/45/6/569b/436926/Esthetic-Management-of-Incisors-with-Diffuse-and",
                     "id": "8:1016",
                     "type": "NODE",
                     "edges": [],
@@ -913,7 +913,7 @@
                                     "edgeType": "ELBOWED",
                                     "directional": "UNI",
                                     "to": {
-                                      "text": "Você provavelmente está diante de um MANCHAMENTO POR TETRACICLINA $tetraciclina $tetraciclina2 O manchamento por tetraciclina ocorre quando o antibiótico é ingerido no período de formação dos dentes e suas moléculas são incorporadas à dentina, conferindo uma coloração acinzentada, amarelada ou até mesmo marrom escuro! Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                      "text": "Você provavelmente está diante de um MANCHAMENTO POR TETRACICLINA $tetraciclina $tetraciclina2 O manchamento por tetraciclina ocorre quando o antibiótico é ingerido no período de formação dos dentes e suas moléculas são incorporadas à dentina, conferindo uma coloração acinzentada, amarelada ou até mesmo marrom escuro! Para mais informações acesse o artigo abaixo ou entre em contato com o nosso grupo. https://seer.ufrgs.br/index.php/RevistadaFaculdadeOdontologia/article/view/7640.",
                                       "id": "9:166",
                                       "type": "NODE",
                                       "edges": [],
@@ -941,7 +941,7 @@
                                     "edgeType": "ELBOWED",
                                     "directional": "UNI",
                                     "to": {
-                                      "text": "Você provavelmente está diante de um MANCHAMENTO POR HIPERBILIRRUBINEMIA $hiperbilirrubinemia $hiperbilirrubinemia2 A hiperbilirrubinemia é uma condição em que a bilirrubina está presente em concentrações elevadas no sangue, algumas de suas possíveis causas são atresia biliar, icterícia grave, insuficiência hepática aguda, hepatite, infecção do trato urinário, fibrose cística, desordem respiratória, desordem hepática, nascimento prematuro e hipoplasia biliar. Clinicamente, todos os dentes apresentam coloração esverdeada, podem apresentar hipoplasia do esmalte dentário, hiperplasia gengival e atraso no desenvolvimento dentário. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                      "text": "Você provavelmente está diante de um MANCHAMENTO POR HIPERBILIRRUBINEMIA $hiperbilirrubinemia $hiperbilirrubinemia2 A hiperbilirrubinemia é uma condição em que a bilirrubina está presente em concentrações elevadas no sangue, algumas de suas possíveis causas são atresia biliar, icterícia grave, insuficiência hepática aguda, hepatite, infecção do trato urinário, fibrose cística, desordem respiratória, desordem hepática, nascimento prematuro e hipoplasia biliar. Clinicamente, todos os dentes apresentam coloração esverdeada, podem apresentar hipoplasia do esmalte dentário, hiperplasia gengival e atraso no desenvolvimento dentário. Para mais informações acesse o artigo abaixo ou entre em contato com o nosso grupo. https://www.revistaodontopediatria.org/index.php/alop/article/view/304/287",
                                       "id": "9:206",
                                       "type": "NODE",
                                       "edges": [],
@@ -969,7 +969,7 @@
                                     "edgeType": "ELBOWED",
                                     "directional": "UNI",
                                     "to": {
-                                      "text": "Você provavelmente está diante de um MANCHAMENTO POR SULFATO FERROSO $sulfato_ferroso O sulfato ferroso é utilizado como suplementação para crianças de até 2 anos de idade e pode provocar manchamentos provisórios ou definitivos nas superfícies dentárias! Clinicamente, se apresenta como manchas, linhas e/ou pontilhados negros, acinzentados ou na cor ferrugem. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                                      "text": "Você provavelmente está diante de um MANCHAMENTO POR SULFATO FERROSO $sulfato_ferroso O sulfato ferroso é utilizado como suplementação para crianças de até 2 anos de idade e pode provocar manchamentos provisórios ou definitivos nas superfícies dentárias! Clinicamente, se apresenta como manchas, linhas e/ou pontilhados negros, acinzentados ou na cor ferrugem. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.  https://periodicos.ufes.br/rbps/article/view/491/355 https://ojs.brazilianjournals.com.br/ojs/index.php/BRJD/article/view/21014",
                                       "id": "9:234",
                                       "type": "NODE",
                                       "edges": [],
@@ -1041,7 +1041,7 @@
                         "edgeType": "ELBOWED",
                         "directional": "UNI",
                         "to": {
-                          "text": "Você provavelmente está diante de uma FLUOROSE $fluorose $fluorose2 A fluorose é uma hipomineralização difusa do esmalte dentário. Ela ocorre devido a exposição do germe dentário a altas concentrações do íon flúor durante sua formação! Sua apresentação clínica varia de acordo com sua severidade e sempre em dentes homólogos, podendo se apresentar como linhas brancas, manchas amarronzadas ou até mesmo depressões porosas! Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                          "text": "Você provavelmente está diante de uma FLUOROSE $fluorose $fluorose2 A fluorose é uma hipomineralização difusa do esmalte dentário. Ela ocorre devido a exposição do germe dentário a altas concentrações do íon flúor durante sua formação! Sua apresentação clínica varia de acordo com sua severidade e sempre em dentes homólogos, podendo se apresentar como linhas brancas, manchas amarronzadas ou até mesmo depressões porosas! Para mais informações acesse o artigo abaixo ou entre em contato com o nosso grupo. https://www.uniara.com.br/legado/revistauniara/pdf/25/livia_artigo10.pd",
                           "id": "8:1075",
                           "type": "NODE",
                           "edges": [],
@@ -1156,7 +1156,7 @@
                         "edgeType": "ELBOWED",
                         "directional": "UNI",
                         "to": {
-                          "text": "DENTE DE TURNER: $turner O “dente de Turner” é uma forma de hipoplasia, que acontece quando um dente decíduo passa por uma infecção bacteriana, decorrente de uma lesão cariosa ou traumática. Ao atingir o ápice dental, a infecção afeta o germe dentário do dente permanente, sendo que a severidade depende do estágio de formação que o permanente se encontra. Clinicamente, o dente de Turner pode apresentar manchas esbranquiçadas, ranhuras amareladas/ amarronzadas e perda estrutural. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                          "text": "DENTE DE TURNER: $turner O “dente de Turner” é uma forma de hipoplasia, que acontece quando um dente decíduo passa por uma infecção bacteriana, decorrente de uma lesão cariosa ou traumática. Ao atingir o ápice dental, a infecção afeta o germe dentário do dente permanente, sendo que a severidade depende do estágio de formação que o permanente se encontra. Clinicamente, o dente de Turner pode apresentar manchas esbranquiçadas, ranhuras amareladas/ amarronzadas e perda estrutural. Para mais informações acesse o artigo abaixo ou entre em contato com o nosso grupo. https://revistas.uepg.br/index.php/biologica/article/view/379/384",
                           "id": "5:463",
                           "type": "NODE",
                           "edges": [],
@@ -1184,7 +1184,7 @@
                         "edgeType": "ELBOWED",
                         "directional": "UNI",
                         "to": {
-                          "text": "HIPLOPLASIA: $hipoplasia $hipoplasia2 As alterações hipoplásicas são de caráter quantitativo e ocorrem quando há uma formação incompleta ou defeituosa da matriz orgânica do esmalte dentário. Clinicamente pode se apresentar como regiões de fóssulas, fissuras ou grandes áreas de perda de esmalte com coloração variando entre áreas sem alteração de cor à esbranquiçadas, amareladas e/ou acastanhadas. É importante ressaltar que em alguns casos, lesões de cariosas podem estar associadas à hipoplasia. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo.",
+                          "text": "HIPLOPLASIA: $hipoplasia $hipoplasia2 As alterações hipoplásicas são de caráter quantitativo e ocorrem quando há uma formação incompleta ou defeituosa da matriz orgânica do esmalte dentário. Clinicamente pode se apresentar como regiões de fóssulas, fissuras ou grandes áreas de perda de esmalte com coloração variando entre áreas sem alteração de cor à esbranquiçadas, amareladas e/ou acastanhadas. É importante ressaltar que em alguns casos, lesões de cariosas podem estar associadas à hipoplasia. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo. https://www.archhealthinvestigation.com.br/ArcHI/article/view/5446/7412 https://revistas.uepg.br/index.php/biologica/article/view/379/384",
                           "id": "5:583",
                           "type": "NODE",
                           "edges": [],
@@ -1220,7 +1220,7 @@
                   "edgeType": "ELBOWED",
                   "directional": "UNI",
                   "to": {
-                    "text": "INCISIVOS DE HUTCHINSON: $hutchinson Os incisivos de Hutchinson são característicos de sífilis congênita, uma doença causada pela transmissão da bactéria Treponema pallidum. Clinicamente, os incisivos apresentam um formato de chave de fenda e os molares podem apresentar um formato de amora ou framboesa.",
+                    "text": "INCISIVOS DE HUTCHINSON: $hutchinson Os incisivos de Hutchinson são característicos de sífilis congênita, uma doença causada pela transmissão da bactéria Treponema pallidum. Clinicamente, os incisivos apresentam um formato de chave de fenda e os molares podem apresentar um formato de amora ou framboesa. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4972761/",
                     "id": "2:338",
                     "type": "NODE",
                     "edges": [],
