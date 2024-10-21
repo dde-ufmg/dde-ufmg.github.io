@@ -88,7 +88,7 @@
                           "type": "NODE",
                           "edges": [
                             {
-                              "text": "Está presente em Segundos Molares, Pré-Molares ou Caninos Permanentes?",
+                              "text": "Está presente em Segundos Molares, Pré-Molares ou Caninos Permanentes",
                               "id": "10:635",
                               "from": {
                                 "$ref": "#/edges/0/to/edges/0/to/edges/0/to/edges/0/to"
