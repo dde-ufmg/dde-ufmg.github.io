@@ -3,12 +3,25 @@ let currentNode = {};
 const historyStack = [];
 
 function replaceImagesAndDefinitions(text, isFinalResult) {
-    const formattedText = text.replace(/\$([a-zA-Z0-9-_]+)/g, (match, imgName) => {
+    let formattedText = text.replace(/\$([a-zA-Z0-9-_]+)/g, (match, imgName) => {
         if (isFinalResult) {
             return `</h2><img src="./images/${imgName}.jpg" alt="${imgName}" class="dynamic-image"><p>`;
         }
         return `<img src="./images/${imgName}.jpg" alt="${imgName}" class="dynamic-image">`;
     });
+
+    const urlGlobalRegex = /(https:\/\/[A-Za-z0-9\.\/\?\=\&\_]*)/g;
+    const urlRegex = /[^"](https:\/\/[A-Za-z0-9\.\/\?\=\&\_]*)/;
+    
+    const urlCount = (str) => {
+        return ((str || '').match(urlGlobalRegex) || []).length
+    };
+    
+    for(let i=0; i<urlCount(formattedText); i++){
+        console.log(formattedText);
+        formattedText = formattedText.replace(urlRegex, (match, url) => (`<br><div class="reference-url"><a target="_blank" href="${url}">Link para o artigo ${i+1}</a></div>`)); 
+    }
+
 
     return formattedText.replace(/\{\{([\sa-zA-ZÀ-ü]+)\}\}/g, (match, key) => (`<span class="tipWrapper" data-key="${key.trim()}">${key.trim()}</span>`))
 }
