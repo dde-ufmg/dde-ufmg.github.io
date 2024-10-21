@@ -204,7 +204,7 @@
                   "edgeType": "ELBOWED",
                   "directional": "UNI",
                   "to": {
-                    "text": "HIPOPLASIA $hipoplasia As alterações hipoplásicas são de caráter quantitativo e ocorrem quando há uma formação incompleta ou defeituosa da matriz orgânica do esmalte dentário. Clinicamente pode se apresentar como regiões de fóssulas, fissuras ou grandes áreas de perda de esmalte com coloração variando entre áreas sem alteração de cor à esbranquiçadas, amareladas e/ou acastanhadas. É importante ressaltar que em alguns casos, lesões de cariosas podem estar associadas à hipoplasia. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo. https://www.archhealthinvestigation.com.br/ArcHI/article/view/5446/7412 https://revistas.uepg.br/index.php/biologica/article/view/379/384",
+                    "text": "HIPOPLASIA $hipoplasia $hipoplasia2 As alterações hipoplásicas são de caráter quantitativo e ocorrem quando há uma formação incompleta ou defeituosa da matriz orgânica do esmalte dentário. Clinicamente pode se apresentar como regiões de fóssulas, fissuras ou grandes áreas de perda de esmalte com coloração variando entre áreas sem alteração de cor à esbranquiçadas, amareladas e/ou acastanhadas. É importante ressaltar que em alguns casos, lesões de cariosas podem estar associadas à hipoplasia. Para mais informações acesse os artigos abaixo ou entre em contato com o nosso grupo. https://www.archhealthinvestigation.com.br/ArcHI/article/view/5446/7412 https://revistas.uepg.br/index.php/biologica/article/view/379/384",
                     "id": "10:809",
                     "type": "NODE",
                     "edges": [],
