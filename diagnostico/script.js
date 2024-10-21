@@ -58,6 +58,9 @@ function displayNode(node, definitionsDictionary) {
     });
 
     node.edges.forEach(edge => {
+        if (edge.text === "Connector line") {
+            return;
+        }
         const option = document.createElement('div');
         option.className = 'option';
         
@@ -133,3 +136,5 @@ fetch("./flow.json")
             .catch((e) => console.error(e));
    })
   .catch((e) => console.error(e));
+
+
