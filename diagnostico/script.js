@@ -7,7 +7,7 @@ function replaceImagesAndDefinitions(text, isFinalResult) {
         if (isFinalResult) {
             return `</h2><img src="./images/${imgName}.jpg" alt="${imgName}" class="dynamic-image"><p>`;
         }
-        return `<img src="./images/${imgName}.png" alt="${imgName}" class="dynamic-image">`;
+        return `<img src="./images/${imgName}.jpg" alt="${imgName}" class="dynamic-image">`;
     });
 
     return formattedText.replace(/\{\{([\sa-zA-ZÀ-ü]+)\}\}/g, (match, key) => (`<span class="tipWrapper" data-key="${key.trim()}">${key.trim()}</span>`))
