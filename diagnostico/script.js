@@ -5,7 +5,7 @@ const historyStack = [];
 function replaceImagesAndDefinitions(text, isFinalResult) {
     const formattedText = text.replace(/\$([a-zA-Z0-9-_]+)/g, (match, imgName) => {
         if (isFinalResult) {
-            return `</h2><img src="./images/${imgName}.png" alt="${imgName}" class="dynamic-image"><p>`;
+            return `</h2><img src="./images/${imgName}.jpg" alt="${imgName}" class="dynamic-image"><p>`;
         }
         return `<img src="./images/${imgName}.png" alt="${imgName}" class="dynamic-image">`;
     });
