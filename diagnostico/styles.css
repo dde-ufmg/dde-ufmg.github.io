@@ -186,13 +186,26 @@ h2 {
 
 footer {
     display: flex;
+    /* flex-direction: row-reverse; */
     flex-direction: column;
     margin-top: 20px;
     align-items: flex-end;
     justify-content: space-between;
 }
 
-footer p {
+footer ul {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    width: 100%;
+    li {
+        align-self: center;
+        font-size: 0.9em;
+        color: #777;
+    }
+}
+footer p{
     align-self: center;
     font-size: 0.8em;
     color: #777;

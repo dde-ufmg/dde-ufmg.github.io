@@ -112,7 +112,19 @@ footer {
     justify-content: space-between;
 }
 
-footer p {
+footer ul {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    width: 100%;
+    li {
+        align-self: center;
+        font-size: 0.85em;
+        color: #777;
+    }
+}
+footer p{
     align-self: center;
     font-size: 0.8em;
     color: #777;
