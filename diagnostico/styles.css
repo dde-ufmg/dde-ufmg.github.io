@@ -85,7 +85,7 @@ h2 {
 
 /* Efeito hover para as opções */
 .option:hover {
-    background-color: #efb918;
+    background-color: #e55c00;
 }
 
 /* Tornar a página responsiva */
@@ -303,6 +303,9 @@ button#showDefinitions {
     background-color: #eeeeee;
     color: #333;
     cursor: pointer;
+}
+button#showDefinitions:hover {
+    background-color: #ccc;
 }
 
 .reference-url {

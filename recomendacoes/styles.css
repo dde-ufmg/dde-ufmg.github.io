@@ -34,7 +34,7 @@ body {
 }
 
 .header .back-button:hover {
-    color: #e5b800;
+    color: #d54c00;
 }
 
 .container {
@@ -94,7 +94,7 @@ p.warning {
 }
 
 .buttons button:hover {
-    background-color: #e5b800;
+    background-color: #e55c00;
 }
 
 img {

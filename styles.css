@@ -101,6 +101,10 @@ div.welcome-message {
     
 .home-link:hover {
     background-color: #e55c00;
+    a {
+        color: #eeeeee;
+        text-shadow: none;
+    }
 }
 
 /* Estilos do rodapé */
