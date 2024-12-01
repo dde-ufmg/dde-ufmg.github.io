@@ -79,7 +79,6 @@ p.warning {
 
 .buttons {
     text-align: center;
-    margin-top: 30px;
 }
 
 .buttons button {
@@ -100,7 +99,7 @@ p.warning {
 
 img {
     display: block;
-    margin: 30px auto;
+    margin: 20px auto;
     max-width: 100%;
     height: auto;
     border-radius: 8px;
