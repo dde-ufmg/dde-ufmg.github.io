@@ -1,113 +1,206 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f9;
-    color: #333;
+/* Modern CSS Variables - Matching Root */
+:root {
+    /* Color Palette */
+    --primary-color: #FFC107;
+    /* Amber 500 */
+    --primary-hover: #FFA000;
+    /* Amber 700 */
+    --secondary-color: #E65100;
+    /* Orange 900 */
+    --background-color: #F3F4F6;
+    /* Gray 100 */
+    --surface-color: #FFFFFF;
+    --text-primary: #1F2937;
+    /* Gray 800 */
+    --text-secondary: #4B5563;
+    /* Gray 600 */
+    --accent-color: #D97706;
+    /* Amber 700 */
+
+    /* Typography */
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* Spacing & Layout */
+    --border-radius: 16px;
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --container-width: 500px;
 }
 
-.header {
-    background-color: #ffbb00;
-    padding: 15px 0;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    width: 100%;
-    top: 0;
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--background-color);
+    color: var(--text-primary);
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 40px;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 80px;
+    /* Space for fixed button */
+}
+
+/* Header */
+.header {
+    background-color: var(--surface-color);
+    width: 100%;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: var(--shadow-sm);
+    position: sticky;
+    top: 0;
+    z-index: 50;
 }
 
 .header .back-button {
-    font-size: 1.5em;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 1rem;
     cursor: pointer;
     background-color: transparent;
     border: none;
-    color: #e55c00;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.2s;
+}
+
+.header .back-button::before {
+    content: '←';
+    font-size: 1.2rem;
 }
 
 .header .back-button:hover {
-    color: #d54c00;
+    color: var(--secondary-color);
 }
 
+/* Container */
 .container {
-    background-color: white;
-    /* background-image: url(./assets/fao_ufmg.png); */
-    background-repeat: no-repeat;
-    background-position: 0;
-    background-size: cover;
-    backdrop-filter: blur(100%);
-    width: 320px;
-    border-radius: 25px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    padding: 20px;
+    background-color: var(--surface-color);
+    width: 100%;
+    max-width: var(--container-width);
+    margin-top: 16px;
+    margin-bottom: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-lg);
+    padding: 24px 20px;
     display: flex;
     flex-direction: column;
 }
 
 h2 {
-    color: #e55c00;
+    font-family: var(--font-heading);
+    color: var(--secondary-color);
     text-align: center;
     margin-bottom: 20px;
+    font-size: 1.3rem;
+    line-height: 1.3;
 }
 
+/* List Styling */
 ol {
-    margin-left: 20px;
+    list-style: none;
+    counter-reset: recommendation-counter;
+    padding: 0;
     margin-bottom: 20px;
-    color: #977759;
-    font-weight: 700;
-    font-size: 1em;
-    li {
-        margin-bottom: 10px;
-        text-align: left;
-    }
 }
 
-p.warning {
-    color: #e55c00;
-    font-weight: bold;
-    margin-left: 20px;
+ol li {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 16px;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
 }
 
-.buttons {
+ol li::before {
+    counter-increment: recommendation-counter;
+    content: counter(recommendation-counter);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 28px;
+    height: 28px;
+    background-color: #FFF8E1;
+    color: var(--primary-hover);
+    border-radius: 50%;
     text-align: center;
+    line-height: 28px;
+    font-weight: 700;
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+}
+
+/* Image */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-height: 25vh;
+    /* Limit height to avoid scrolling */
+    object-fit: cover;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+}
+
+/* Fixed Bottom Button Container */
+.buttons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--surface-color);
+    padding: 16px 24px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    z-index: 100;
 }
 
 .buttons button {
-    padding: 15px 30px;
-    margin: 10px 5px;
-    font-size: 1.5em;
+    padding: 14px 32px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: var(--font-heading);
     cursor: pointer;
-    background-color: #ffc928;
+    background-color: var(--primary-color);
     border: none;
-    border-radius: 5px;
+    border-radius: 12px;
     color: #fff;
-    width: 80%;
+    width: 100%;
+    max-width: var(--container-width);
+    transition: all 0.2s ease;
+    box-shadow: var(--shadow-md);
 }
 
 .buttons button:hover {
-    background-color: #e55c00;
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
 }
 
-img {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
+/* Media Query for larger screens */
+@media (min-width: 600px) {
+    body {
+        padding-bottom: 0;
+    }
 
-@media (max-width: 600px) {
-    .buttons button {
-        margin: 10px auto;
-        display: block;
+    .buttons {
+        position: static;
+        box-shadow: none;
+        padding: 24px 0 0;
+        background-color: transparent;
     }
 }

@@ -1,220 +1,291 @@
-/* Estilos globais */
+/* Modern CSS Variables */
+:root {
+    /* Color Palette */
+    --primary-color: #FFC107;
+    /* Amber 500 */
+    --primary-hover: #FFA000;
+    /* Amber 700 */
+    --secondary-color: #E65100;
+    /* Orange 900 */
+    --background-color: #F3F4F6;
+    /* Gray 100 */
+    --surface-color: #FFFFFF;
+    --text-primary: #1F2937;
+    /* Gray 800 */
+    --text-secondary: #4B5563;
+    /* Gray 600 */
+    --accent-color: #D97706;
+    /* Amber 700 */
+
+    /* Typography */
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* Spacing & Layout */
+    --border-radius: 16px;
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --container-width: 400px;
+}
+
+/* Global Reset & Base Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
 }
 
 body {
-    background-color: #f2f2f2;
+    font-family: var(--font-body);
+    background-color: var(--background-color);
+    color: var(--text-primary);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-}
-
-/* Container principal do aplicativo */
-#app-container {
-    /* background-color: white; */
-    background-image: url(./assets/fao_ufmg.png);
-    background-repeat: no-repeat;
-    background-position: 0;
-    background-size: cover;
-    backdrop-filter: blur(100%);
-
-    width: 320px;
-    border-radius: 25px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    min-height: 100vh;
+    line-height: 1.5;
     padding: 20px;
 }
 
-/* Estilo da mensagem de boas-vindas */
-
-
-div.welcome-message {
-    margin-top: 20px;
-    background-color: #ffffff;
-    border: 4px, solid, #ffc928;
-    border-radius: 25px;
-    padding: 5px;
-    width: 80%;
-    h1 {
-        color: #ffc928;
-        font-size: 2em;
-        font-weight: bold;
-        text-shadow: 2px 2px #977759;
-    }    
-}
-
-/* Caixa de descrição */
-#description-box {
-    background-color: #977759;
-    color: #ffffff;
-    border-radius: 15px;
-    padding: 15px;
-    padding-left: 30px;
-    margin: 20px 0;
-    font-size: 0.9em;
-    line-height: 1.5;
-    font-weight: 600;
-    text-align: left;
-}
-
-/* Links dentro da descrição */
-#description-box span {
-    font-weight: bold;
-    color: #fede89;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.home-content {
+/* App Container */
+#app-container {
+    background-color: var(--surface-color);
+    background-image: url('./assets/fao_ufmg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    max-width: var(--container-width);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-lg);
+    padding: 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Overlay for better text readability */
+#app-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.90);
+    /* 90% opacity - visible but subtle */
+    z-index: 0;
+}
+
+#app-container>* {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+/* Welcome Message */
+.welcome-message {
+    margin-top: 10px;
+    /* Further reduced */
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.welcome-message h1 {
+    font-family: var(--font-heading);
+    color: var(--secondary-color);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
+
+/* Description Box */
+#description-box {
+    background-color: var(--surface-color);
+    border: 1px solid #E5E7EB;
+    border-left: 4px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 24px;
+    box-shadow: var(--shadow-sm);
+}
+
+#description-box ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#description-box li {
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+}
+
+#description-box li:last-child {
+    margin-bottom: 0;
+}
+
+/* Tooltips/Links in Description */
+#description-box span.tipWrapper {
+    font-weight: 600;
+    color: var(--accent-color);
+    cursor: help;
+    border-bottom: 1px dotted var(--accent-color);
+}
+
+/* Home Links / Buttons */
+.home-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
 }
 
 .home-link {
-    margin: 10px;
-    background-color: #ffc928;
-    border: none;
-    border-radius: 25px;
-    margin: 10px 0;
-    font-size: 1.2em;
-    font-weight: 600;
-    cursor: pointer;
-    width: 80%;
-    a {
-        padding: 10px 20px;
-        height: 100%;
-        width: 100%;
-        color: #977759;
-        text-decoration: none;
-        text-shadow: 1px 1px #eeeeee;
-        box-sizing: border-box;
-        display: inline-block;
-    }
-}
-    
-.home-link:hover {
-    background-color: #e55c00;
-    a {
-        color: #eeeeee;
-        text-shadow: none;
-    }
+    width: 100%;
 }
 
-/* Estilos do rodapé */
-footer {
+.home-link a {
     display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    align-items: flex-end;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 14px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    /* White text for better contrast on yellow/orange */
+    text-decoration: none;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+    box-shadow: var(--shadow-md);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.home-link a:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+/* Specific button styles if needed */
+#access-article {
+    background-color: var(--surface-color);
+    color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
+}
+
+#access-article:hover {
+    background-color: #FFF8E1;
+    /* Light amber bg */
+    color: var(--secondary-color);
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    border-top: 1px solid #E5E7EB;
+    padding-top: 20px;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
 }
 
 footer ul {
-    margin-top: 10px;
+    list-style: none;
     display: flex;
     flex-direction: column;
-    list-style-type: none;
-    width: 100%;
-    li {
-        align-self: center;
-        font-size: 0.85em;
-        color: #777;
-    }
-}
-footer p{
-    align-self: center;
-    font-size: 0.8em;
-    color: #777;
+    gap: 4px;
 }
 
-#footer-logo {
-    width: 160px;
-    margin-top: 10px;
+footer li {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
 }
 
+/* Modal */
 .modal {
-    display: none; /* Oculto por padrão */
+    display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: scroll;
-    background-color: rgba(0, 0, 0, 0.5);
-    justify-content: space-between;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    justify-content: center;
     align-items: center;
 }
 
 .modal-content {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    max-width: 400;
-    text-align: center;
+    background-color: var(--surface-color);
+    margin: auto;
+    padding: 24px;
+    border-radius: var(--border-radius);
+    width: 90%;
+    max-width: 400px;
+    box-shadow: var(--shadow-lg);
+    position: relative;
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .close {
-    color: #aaa;
+    color: var(--text-secondary);
     float: right;
     font-size: 28px;
     font-weight: bold;
     cursor: pointer;
+    line-height: 1;
 }
 
 .close:hover {
-    color: #000;
+    color: var(--text-primary);
 }
 
-/* Estilo do contêiner das definições */
-/* #definitions {
-    display: flex;
-    flex-wrap: wrap; /* Para permitir múltiplos cards lado a lado */
-    /* justify-content: space-between; */
-    /* gap: 20px; Espaçamento entre os cards */
-    /* padding: 20px; */
-/* } */ 
-
-/* Estilo dos cards de definição */
+/* Definition Cards inside Modal or elsewhere */
 .definition {
-    background-color: #f9f9f9;
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    flex: 1;
-    min-width: 280px;
-    max-width: 350px;
-    transition: transform 0.2s, box-shadow 0.2s ease-in-out;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
+    background-color: var(--surface-color);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: var(--shadow-md);
+    margin-bottom: 16px;
 }
 
-/* Efeito hover para realçar os cards */
-.definition:hover {
-    transform: translateY(-5px); /* Eleva o card */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
-}
-
-/* Estilo para o título dos cards */
 .definition h3 {
-    font-size: 1.5em;
-    color: #333;
-    margin-bottom: 10px;
+    font-family: var(--font-heading);
+    color: var(--secondary-color);
+    margin-bottom: 8px;
+    font-size: 1.25rem;
 }
 
-/* Estilo para o parágrafo */
 .definition p {
-    font-size: 1em;
-    color: #555;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
     line-height: 1.6;
-    text-align: justify;
 }

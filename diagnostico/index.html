@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
@@ -8,19 +9,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diagnóstico DDE - FAO / UFMG</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <nav id="navbar">
-        <button id="backBtn">Voltar</button> <!-- Botão de voltar -->
-        <a href=".." id="home-link">Início</a>
+        <div class="nav-left">
+            <button id="backBtn">Voltar</button>
+        </div>
+        <div class="nav-center">
+            <a href="..">
+                <img src="../assets/logo-fao-ufmg.svg" alt="FAO UFMG Logo" class="nav-logo">
+            </a>
+        </div>
+        <div class="nav-right">
+            <a href=".." id="home-link">Início</a>
+        </div>
     </nav>
     <div id="app-container">
-        
+
         <div id="content"></div>
         <div id="options"></div>
         <button id="showDefinitions" style="display: none;">ℹ️ Clique para exibir definições</button>
-        
+
         <div id="definitions" class="modal" style="display: none;">
             <!-- <div class="modal-content">
                 <span class="close">&times;</span>
@@ -28,14 +44,15 @@
                 <p id="modal-description"></p>
             </div> -->
         </div>
-        
+
         <footer>
             <img src="../assets/logo.jpeg" alt="Logo Odontopediatria UFMG" id="footer-logo">
         </footer>
-                
+
     </div>
 
 
     <script src="script.js"></script>
 </body>
+
 </html>

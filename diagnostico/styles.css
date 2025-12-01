@@ -1,245 +1,271 @@
-/* Estiliza a página para que os elementos fiquem centralizados e bem distribuídos */
+/* Modern CSS Variables - Matching Root */
+:root {
+    /* Color Palette */
+    --primary-color: #FFC107;
+    /* Amber 500 */
+    --primary-hover: #FFA000;
+    /* Amber 700 */
+    --secondary-color: #E65100;
+    /* Orange 900 */
+    --background-color: #F3F4F6;
+    /* Gray 100 */
+    --surface-color: #FFFFFF;
+    --text-primary: #1F2937;
+    /* Gray 800 */
+    --text-secondary: #4B5563;
+    /* Gray 600 */
+    --accent-color: #D97706;
+    /* Amber 700 */
+
+    /* Typography */
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* Spacing & Layout */
+    --border-radius: 16px;
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --container-width: 480px;
+    /* Slightly wider for content */
+}
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f9;
-    color: #333;
-}
-
-/* Estilo para o contêiner principal */
-#content {
-    text-align: center;
-    margin-bottom: 20px;
+    font-family: var(--font-body);
+    background-color: var(--background-color);
+    color: var(--text-primary);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    p {
-        text-align: justify;
-    }
+    min-height: 100vh;
+    padding-bottom: 40px;
 }
 
-/* Estilo da navbar */
+/* Navbar / Header */
 #navbar {
-    background-color: #ffbb00;
-    padding: 15px 0;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: sticky;
+    background-color: var(--surface-color);
     width: 100%;
+    padding: 12px 20px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    /* Left, Center (Logo), Right */
+    align-items: center;
+    box-shadow: var(--shadow-sm);
+    position: sticky;
     top: 0;
+    z-index: 50;
+}
+
+.nav-left {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 40px;
+    justify-content: flex-start;
 }
 
-#navbar a {
-    color: white;
+.nav-center {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-logo {
+    height: 48px;
+    width: auto;
+}
+
+#navbar a,
+#navbar button {
+    font-family: var(--font-heading);
+    font-weight: 600;
     text-decoration: none;
-    font-size: 1.2em;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 10px;
-    background-color: #ff6700;
+    color: var(--text-secondary);
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
-#navbar a:hover {
-    background-color: #e55c00;
+#navbar a:hover,
+#navbar button:hover {
+    color: var(--secondary-color);
 }
 
-/* Título da página */
+/* Back Button Styling */
+#backBtn::before {
+    content: '←';
+    font-size: 1.2rem;
+}
+
+/* App Container */
+#app-container {
+    width: 100%;
+    max-width: var(--container-width);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Content Area */
+#content {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
 h2 {
-    font-size: 24px;
-    margin: 0;
-    padding: 0;
-    color: #2c3e50;
+    font-family: var(--font-heading);
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    line-height: 1.3;
 }
 
-/* Estilo para as opções */
+p {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 16px;
+}
+
+/* Dynamic Images */
+.dynamic-image {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+}
+
+.dynamic-image:hover {
+    transform: scale(1.02);
+}
+
+/* Options / Buttons */
 #options {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
     width: 100%;
 }
 
 .option {
-    background-color: #ffc928;
-    color: white;
-    padding: 15px 25px;
+    background-color: var(--surface-color);
+    color: var(--text-primary);
+    padding: 16px 24px;
     text-align: center;
-    border-radius: 5px;
+    border: 2px solid transparent;
+    border-radius: 12px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-    font-size: 18px;
-    font-weight: 700;
-    border-radius: 50px;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.2s ease;
 }
 
-/* Efeito hover para as opções */
 .option:hover {
-    background-color: #e55c00;
+    background-color: #FFF8E1;
+    /* Light amber */
+    border-color: var(--primary-color);
+    color: var(--secondary-color);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
 }
 
-/* Tornar a página responsiva */
-@media (max-width: 600px) {
-    .option {
-        font-size: 16px;
-        padding: 12px 20px;
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-}
-
-/* Estilo do botão "Voltar" com seta */
-#backBtn {
+/* Show Definitions Button */
+button#showDefinitions {
+    margin-top: 24px;
     background-color: transparent;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-    color: #333;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-}
-
-/* Ícone da seta (usando Unicode) */
-#backBtn::before {
-    content: '←';  /* Seta Unicode para trás */
-    margin-right: 8px;
-    font-size: 24px;
-}
-
-/* Efeito de hover */
-#backBtn:hover {
-    color: #000;
-}
-
-/* Tornar o botão responsivo */
-@media (max-width: 600px) {
-    #backBtn {
-        font-size: 20px;
-        top: 5px;
-        left: 5px;
-    }
-    #backBtn::before {
-        font-size: 20px;
-    }
-}
-
-/* Estilo para as imagens dinâmicas */
-.dynamic-image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto; /* Centraliza a imagem e adiciona espaçamento */
+    color: var(--text-secondary);
+    border: 1px dashed var(--text-secondary);
+    padding: 8px 16px;
     border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s;
 }
 
-/* Responsividade para telas menores */
-@media (max-width: 600px) {
-    .dynamic-image {
-        width: 90%; /* Reduz o tamanho das imagens em telas menores */
-    }
+button#showDefinitions:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-color: var(--text-primary);
+    color: var(--text-primary);
 }
 
-
-
-/* Responsividade para telas menores */
-@media (max-width: 768px) {
-    #definitions {
-        flex-direction: column; /* Empilha os cards em telas menores */
-        gap: 15px;
-    }
-    .definition {
-        max-width: 100%; /* Garantir que os cards ocupem toda a largura disponível */
-    }
-}
-
-#app-container {
-    background-color: white;
-    /* background-image: url(./assets/fao_ufmg.png); */
-    background-repeat: no-repeat;
-    background-position: 0;
-    background-size: cover;
-    backdrop-filter: blur(100%);
-    
-    width: 320px;
-    border-radius: 25px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    padding: 20px;
-
-    display: flex;
-    flex-direction: column;
-}
-
-footer {
-    display: flex;
-    /* flex-direction: row-reverse; */
-    flex-direction: column;
-    margin-top: 20px;
-    align-items: flex-end;
-    justify-content: space-between;
-}
-
-footer ul {
-    margin-top: 5px;
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    width: 100%;
-    li {
-        align-self: center;
-        font-size: 0.9em;
-        color: #777;
-    }
-}
-footer p{
-    align-self: center;
-    font-size: 0.8em;
-    color: #777;
-}
-
-#footer-logo {
-    width: 160px;
-    margin-top: 10px;
-}
-
+/* Modal */
 .modal {
-    display: none; /* Oculto por padrão */
+    display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.5);
-    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    justify-content: center;
     align-items: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .modal {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 60px;
+        /* Space for close button or header if needed */
+    }
+
+    .definition {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 16px;
+    }
 }
 
 .modal-content {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
+    background-color: var(--surface-color);
+    margin: auto;
+    padding: 24px;
+    border-radius: var(--border-radius);
+    width: 100%;
     max-width: 400px;
-    text-align: center;
+    box-shadow: var(--shadow-lg);
+    position: relative;
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .close {
-    color: #aaa;
+    color: var(--text-secondary);
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -247,91 +273,71 @@ footer p{
 }
 
 .close:hover {
-    color: #000;
+    color: var(--text-primary);
 }
 
-/* Estilo do contêiner das definições */
-/* #definitions {
-    display: flex;
-    flex-wrap: wrap; /* Para permitir múltiplos cards lado a lado */
-    /* justify-content: space-between; */
-    /* gap: 20px; Espaçamento entre os cards */
-    /* padding: 20px; */
-/* } */ 
-
-/* Estilo dos cards de definição */
+/* Definition Cards */
 .definition {
-    background-color: #f9f9f9;
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    flex: 1;
-    width: 90%;
-    min-width: 280px;
-    max-width: 350px;
-    transition: transform 0.2s, box-shadow 0.2s ease-in-out;
+    background-color: #FAFAFA;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
 }
 
-/* Efeito hover para realçar os cards */
-.definition:hover {
-    transform: translateY(-5px); /* Eleva o card */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
-}
-
-/* Estilo para o título dos cards */
 .definition h3 {
-    font-size: 1.5em;
-    color: #333;
-    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+    margin-bottom: 8px;
 }
 
-/* Estilo para o parágrafo */
 .definition p {
-    font-size: 1em;
-    color: #555;
-    line-height: 1.6;
-    text-align: justify;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    text-align: left;
 }
 
-button#showDefinitions {
-    /* display: flex; */
-    align-self: flex-end;
-    margin-top: 10px;
-    border-radius: 5px;
-    border: none;
-    background-color: #eeeeee;
-    color: #333;
-    cursor: pointer;
-}
-button#showDefinitions:hover {
-    background-color: #ccc;
+/* Footer */
+footer {
+    margin-top: auto;
+    padding-top: 40px;
 }
 
+#footer-logo {
+    width: 120px;
+    height: auto;
+    opacity: 0.9;
+    transition: opacity 0.2s;
+    display: block;
+    margin: 0 auto;
+    mix-blend-mode: multiply;
+    /* Blends white background with gray page background */
+}
+
+#footer-logo:hover {
+    opacity: 1;
+}
+
+/* Reference URL Button */
 .reference-url {
-    margin: 10px auto;
-    background-color: #ffc928;
-    border: none;
-    border-radius: 25px;
-    margin: 10px 0;
-    font-size: 1.2em;
-    font-weight: 600;
-    cursor: pointer;
-    width: 80%;
-    a {
-        padding: 10px 20px;
-        height: 100%;
-        line-height: 100%;
-        width: 100%;
-        color: #977759;
-        text-decoration: none;
-        text-shadow: 1px 1px #eeeeee;
-        box-sizing: border-box;
-        display: inline-block;
-    }
+    display: block;
+    width: 100%;
+    margin-top: 16px;
 }
-    
-.reference-url:hover {
-    background-color: #e55c00;
-    color: #fff;
+
+.reference-url a {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.reference-url a:hover {
+    background-color: var(--primary-hover);
 }

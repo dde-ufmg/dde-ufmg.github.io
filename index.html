@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
@@ -8,10 +9,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diagnóstico DDE - FAO / UFMG</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div id="app-container">
+        <div class="header-logos" style="display: flex; justify-content: center; gap: 20px; margin-bottom: 10px;">
+            <img src="./assets/logo-fao-ufmg.svg" alt="FAO UFMG Logo" style="height: 80px; width: auto;">
+            <!-- <img src="./assets/logo.jpeg" alt="Odontopediatria Logo" style="height: 60px; width: auto; opacity: 0.9;"> -->
+        </div>
         <div class="home-content">
             <div class="welcome-message">
                 <h1>Instruções</h1>
@@ -19,10 +30,12 @@
             <div id="description-box">
                 <ul>
                     <li>
-                        O objetivo desse aplicativo é ajudar no diagnóstico de <span class="tipWrapper" data-key="DDE">DDE</span>.
+                        O objetivo desse aplicativo é ajudar no diagnóstico de <span class="tipWrapper"
+                            data-key="DDE">DDE</span>.
                     </li>
                     <li>
-                        Para aprimorar a sua eficiência, antes de iniciar, certifique-se de que não está lidando com uma lesão cariosa.<br>
+                        Para aprimorar a sua eficiência, antes de iniciar, certifique-se de que não está lidando com uma
+                        lesão cariosa.<br>
                     </li>
                     <li>
                         Sugerimos o uso dos critérios do <span class="tipWrapper" data-key="ICDAS">ICDAS</span>.
@@ -33,7 +46,8 @@
                 </ul>
             </div>
             <div class="home-link">
-                <a id="access-article" href="https://onlinelibrary.wiley.com/doi/10.1111/cdoe.12025" target="_blank">Acesse o artigo</a>
+                <a id="access-article" href="https://onlinelibrary.wiley.com/doi/10.1111/cdoe.12025"
+                    target="_blank">Acesse o artigo</a>
             </div>
             <div class="home-link">
                 <a id="start-app" href="./recomendacoes/">Iniciar</a>
@@ -53,4 +67,5 @@
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
